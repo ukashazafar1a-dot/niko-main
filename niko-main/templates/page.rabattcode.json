@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_URRkDA": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WYxkyQ": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Shop_Banner_Beige_Beauty_Nude_Handmade_1800_x_800_px.webp",
+            "image_mobile": "shopify://shop_images/11.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WYxkyQ"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_AyK3fB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jmYgC3": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1> 10% Rabatt erhalten – registriere dich jetzt zum Newsletter!</h1><p>Dein Lieblingswerk Rabattcode gefällig? Drücke unten auf den Button und wir schicken dir einen Rabattcode zu. Mit dem Dein Lieblingswerk Rabattcode erhältst du anschließend 10% Rabatt auf deinen Einkauf in unserem Online Shop.</p><p></p><p>Zusätzlich verpasst du keine Infos mehr zu Rabattaktionen und Specials!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jmYgC3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1723754656146dd628": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "rich_text_WWkdDY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BHjpre": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>Dein Lieblingswerk Rabattcode</h1><p></p><p>Du liebst Schnäppchen? Dann haben wir gute Nachrichten: Es gibt immer wieder Dein Lieblingswerk Rabattcodes, mit denen du deine Basics besonders günstig shoppen kannst. Bei Sales–Events wie Black Friday warten jede Menge geiler Deals auf dich. Aber auch zwischendurch lauern immer wieder ein paar Highlights, wie Neukunden Rabatte oder Gutscheine, mit denen du grandiose Dein Lieblingswerk  Rabatte abräumen kannst. Egal, ob individuelle Schriftzüge, Wandbilder oder vorgefertigte Schriftzüge  – Dein Lieblingswerk Rabattcodes kannst du einfach bei der Bezahlung im Shop einlösen.</p><h2>Partner Dein Lieblingswerk Rabattcode</h2><p></p><p>Wir kooperieren mit Partnern – es lohnt sich also, überall die Augen nach Dein Lieblingswerk– Rabattcodes offenzuhalten. Dein Lieblingswerk – Rabatte verkünden wir auch auf unserem Instagram – Kanal. Es lohnt sich also auf jeden Fall, uns hier zu folgen. Du bist Influencer und suchst nach einem Snocks Rabattcode? Schreib uns hierzu gern eine Mail mit deiner Anfrage.</p><h2><strong>Häufig gestellte Fragen</strong></h2><h3><strong>Wie lange ist ein Dein Lieblingswerk Rabattcode gültig?</strong></h3><p></p><p>Ein Rabattcode für unseren Onlineshop verliert grundsätzlich erst seine Gültigkeit, wenn du ihn eingelöst hast. Es gibt aber auch immer wieder Rabattcodes und Coupons, die während eines bestimmten Events oder für eine bestimmte Zeit gültig sind. Diesen Zeitraum geben wir aber immer an, damit du auf jeden Fall rechtzeitig Schnäppchen jagen und super Ersparnisse haben kannst.</p><p></p><h3><strong>Gibt es auch einen Etsy Rabattcode von Dein Lieblingswerk?</strong></h3><p></p><p>Dein Lieblingswerk Rabattcodes von unserer Website oder unseren E-Mails gelten für unseren Onlineshop, es handelt sich nicht um Etsy Rabattcodes.</p><p></p><h3><strong>Wie kann ich einen Dein Lieblingswerk Gutscheincode einlösen?</strong></h3><p></p><p>Du kannst sowohl einen Dein Lieblingswerk Gutscheincode als auch einen Rabattcode ganz bequem beim Bezahlen deiner Bestellung angeben und erhältst sofort einen Rabatt.<br/></p><h3><strong>Was ist der Unterschied zwischen Dein Lieblingswerk Gutschein und Dein Lieblingswerk  Rabattcode?</strong></h3><p></p><p>Ein Gutschein und ein Rabattcode von Dein Lieblingswerk ermöglichen dir beide, günstiger zu shoppen. Es gibt aber einen Unterschied: Ein Rabattcode reduziert die Summe in deinem Warenkorb zu dem entsprechenden Prozentsatz. Je nach Warenkorb sparst du so mal 10€, mal aber auch 60€. Ein Gutschein reduziert deinen Warenkorb um eine festgelegte Summe, ganz egal, wie voll dein Warenkorb ist. Du setzt ihn also ein wie Geld. Die gute Nachricht ist: Du kannst Rabattcode und Gutschein kombinieren.</p><p></p><h3><strong>Wie bekomme ich einen Rabattcode bei Dein Lieblingswerk?</strong></h3><p></p><p>Du musst ein bisschen Glück haben, um an einen Rabattcode zu kommen, aber du kannst viel für dein Glück tun. Abonniere am besten unseren Newsletter und unseren Instagram-Kanal, dann erfährst du auf jeden Fall von aktuellen Rabatten, Sales-Aktionen und den verschiedenen Rabattwerten.<br/></p><h3><strong>Was tun, wenn mein Dein Lieblingswerk Gutscheincode nicht per Mail geschickt wird?</strong></h3><p></p><p>Schaue in diesem Fall bitte in deinem Spam-Ordner nach, ob der Dein Lieblingswerk Gutscheincode dort gelandet ist. Da ist er nicht? Dann meld dich bei unserem Kundenservice, dort helfen wir dir sehr schnell und freundlich. Wenn du einen Widerruf starten möchtest, setze dich am besten vorher mit uns in Verbindung - denn es gibt keine Probleme nur Lösungen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BHjpre"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_URRkDA",
+    "rich_text_AyK3fB",
+    "1723754656146dd628",
+    "rich_text_WWkdDY"
+  ]
+}

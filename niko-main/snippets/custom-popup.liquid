@@ -1,0 +1,66 @@
+{% style %}
+  .quantity-popup{
+    margin:10px 0;
+  }
+  .quantity-popup .tool-tip-trigger__title{
+    display:flex;
+    align-item:center;
+    justify-content:flex-start;
+    gap:10px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+  }
+  .image-minee{
+    width:100%;
+
+  }
+   .image-minee .image-wrap.loaded .image-element{
+    opacity:1;
+  }
+  @media(max-width:768px){
+    .image-minee img{
+      width:100%;
+      height:100%;
+    }
+  }
+{% endstyle %}
+
+{% liquid
+  assign image = block.settings.image
+  assign action_text = block.settings.action_text
+  assign title = block.settings.title
+%}
+
+<div class="size-chart__standalone quantity-popup" {{ block.shopify_attributes }}>
+  {% if image != blank %}
+    <tool-tip-trigger class="tool-tip-trigger" data-tool-tip="size-chart">
+      <div class="tool-tip-trigger__title">
+        <span>{{ title }}</span>
+        <span>{{ action_text }}</span>
+      </div>
+      <span
+        class="tool-tip-trigger__content"
+        data-tool-tip-content=""
+      >
+        <div class="image-minee">
+          {% liquid
+            assign mobileHeight = image.width | divided_by: image.aspect_ratio | round
+            assign mobileSizes = '100vw'
+            assign mobileWidths = '750, 1100, 1500, 1780, 2000, 3000, 3840'
+          %}
+          {{
+            image
+            | image_url: width: 3840
+            | image_tag:
+              loading: 'lazy',
+              height: mobileHeight,
+              sizes: mobileSizes,
+              widths: mobileWidths,
+              fetchPriority: 'high',
+              class: 'mobile--image'
+          }}
+        </div>
+      </span>
+    </tool-tip-trigger>
+  {% endif %}
+</div>

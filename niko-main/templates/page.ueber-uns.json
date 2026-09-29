@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_7jyTCC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DdrJUg": {
+          "type": "heading",
+          "settings": {
+            "title": "ÜBER UNS"
+          }
+        },
+        "text_3x3Fiy": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Willkommen bei Dein Lieblingswerk! Mein Name ist Niko und ich bin der stolze Inhaber dieses Shops. Hier bei uns dreht sich alles um die Faszination personalisierter Acrylglas-Designs, die mit Leidenschaft und Kreativität geschaffen werden.<br/><br/>Über 20 Jahre lang war Fußball meine große Leidenschaft. Nach meinem Abitur begann ich ein Maschinenbaustudium und spielte parallel dazu mehrmals pro Woche Fußball. Doch an einem unwichtigen Spieltag im Juni 2019 änderte sich alles. Ich riss mir das Kreuzband und sowohl der Außen- als auch der Innenmeniskus wurden beschädigt.<br/><br/>Die Verletzung zwang mich zu einer Operation und einer langen Reha. Plötzlich konnte ich nicht mehr Fußball spielen und musste nach einer neuen Freizeitbeschäftigung suchen. Durch mein technisches Interesse, das ich während meines Studiums entwickelt hatte, beschloss ich, mir einen 3D-Drucker zuzulegen.<br/><br/>Mit dem 3D-Drucker begann ich, verschiedene Dinge auszudrucken und meine kreative Seite zu entdecken. Es war eine Ablenkung und ein neuer Zeitvertreib, der mir half, mit meiner Situation umzugehen. Ich war fasziniert von der Möglichkeit, eigene Designs zu erstellen und sie zum Leben zu erwecken.<br/><br/>Der 3D-Druck allein reichte mir jedoch nicht aus. Ich wollte noch mehr Möglichkeiten erkunden. Also entschied ich mich, meinen Arbeitsbereich um einen Laser zu erweitern. Mit diesem Laser konnte ich verschiedene Materialien schneiden und gravieren. Eine neue Welt voller kreativer Möglichkeiten öffnete sich vor mir.<br/><br/>Die Idee für Dein Lieblingswerk entstand während meiner Weiterentwicklung. Ich wollte meine Leidenschaft für personalisierte Designs mit anderen Menschen teilen und einzigartige Kunstwerke schaffen. So wurde mein Shop geboren.<br/><br/>Im Laufe der Zeit entdeckte ich meine Begeisterung für das Arbeiten mit Acrylglas. Die Vielseitigkeit dieses Materials und die Möglichkeit, atemberaubende personalisierte Designs zu erschaffen, faszinierten mich zutiefst. Es war der perfekte Weg, um meine technische Expertise und meine kreative Seite zu vereinen.<br/><br/>Heute betreibe ich Dein Lieblingswerk nebenberuflich und widme mich mit Leidenschaft dem Schaffen personalisierter Acrylglas-Designs. Meine Geschichte zeigt, dass manchmal unvorhergesehene Umstände neue Wege eröffnen und dass durch Herausforderungen neue Leidenschaften entstehen können.<br/><br/>Bei Dein Lieblingswerk findest du einzigartige Kunstwerke, die mit Liebe und Sorgfalt gestaltet werden. Jedes Design wird individuell angefertigt und auf deine Wünsche zugeschnitten. Lass uns gemeinsam etwas Besonderes erschaffen und deine Ideen zum Leben erwecken!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DdrJUg",
+        "text_3x3Fiy"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1723735984a8bd7394": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1723754656146dd628": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_7jyTCC",
+    "1723735984a8bd7394",
+    "1723754656146dd628"
+  ]
+}

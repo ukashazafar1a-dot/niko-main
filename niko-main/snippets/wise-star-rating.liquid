@@ -1,0 +1,7 @@
+<wise-star-rating
+  {% capture productID %}{{ product.id }}{% endcapture %}
+  data-average-rating="{{ shop.metafields.wisereviews.reviews.value.products[productID].average_rating }}"
+  data-reviews-count="{{ shop.metafields.wisereviews.reviews.value.products[productID].reviews_count }}"
+  data-star-size="{{ star_size }}"
+  data-align="{{ align }}"
+></wise-star-rating>

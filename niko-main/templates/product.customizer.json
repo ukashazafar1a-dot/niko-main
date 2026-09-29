@@ -1,0 +1,621 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "customizer_app": {
+      "type": "customizer-app",
+      "blocks": {
+        "loox_reviews_loox_rating_eKUriR": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "([count])",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_eKUriR"
+      ],
+      "settings": {
+        "shipping_text": "inkl. KOSTENLOSER Versand ab 50 Euro.",
+        "delivery_icons": "shopify://shop_images/icons_personalisierterSchriftzug.png",
+        "point_one": "ghjgjhj",
+        "title_top_note": "Von über 3.500 Kunden geliebt",
+        "title_bottom_text": "<p><meta charset=\"UTF-8\"><meta charset=\"UTF-8\"><span>In wenigen Schritten zu deinem individuellen 3D–Schriftzug – ganz ohne Mühe!</span><br></p><p><span style=\"font-size: 0.875rem;\" data-mce-style=\"font-size: 0.875rem;\"><strong>✓</strong> Personalisierbares 3D Design für deinen Stil</span><br><strong data-mce-fragment=\"1\" style=\"font-size: 0.875rem;\" data-mce-style=\"font-size: 0.875rem;\">✓ </strong>Farbe, Größe und Schriftart wählbar<br><span style=\"font-size: 0.875rem;\" data-mce-style=\"font-size: 0.875rem;\"><strong>✓</strong> Leicht anzubringen, ganz ohne Werkzeug</span><br><strong data-mce-fragment=\"1\" style=\"font-size: 0.875rem;\" data-mce-style=\"font-size: 0.875rem;\">✓ </strong><span style=\"font-size: 0.875rem;\" data-mce-style=\"font-size: 0.875rem;\">für den Innen- und Außenbereich</span><br></p>",
+        "discount_enable": true,
+        "discount": 15,
+        "reviews_note_enable": true,
+        "reviews_note_text": "Anna, Tanja und 1000 andere sind begeistert.",
+        "reviews_note_check": "shopify://shop_images/Lisa.png",
+        "reviews_note_img_1": "shopify://shop_images/2148354939-min.jpg",
+        "reviews_note_img_2": "shopify://shop_images/2681-min.jpg",
+        "size_chart_label": "Größenbeispiele",
+        "discount_note_img": "shopify://shop_images/Mengenrabatt-2.jpg",
+        "discount_note_label": "Mengenrabatt ab 2 Artikel:",
+        "discount_note_action_text": "Erfahre mehr"
+      }
+    },
+    "main": {
+      "type": "main-customizer-product",
+      "blocks": {
+        "description_kA8Fig": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab_LKHdHg": {
+          "type": "tab",
+          "settings": {
+            "title": "Konfigurationshilfe",
+            "content": "<ul><li>– Bei längeren Texten ist der Text in mehrere Zeilen aufgeteilt, um ihn besser lesen zu können.</li><li>– Die angegebenen Maße beziehen sich auf den Text in einer durchgehenden Zeile, auch wenn er auf mehrere Zeilen verteilt dargestellt wird.</li><li>– Die Texthöhe wird durch den höchsten und niedrigsten Punkt der Buchstaben bestimmt, siehe Größenbeispiel.</li><li>– Alle Wörter stehen am Ende einzeln, sodass du sie frei platzieren kannst. Bitte füge keine zusätzlichen Enter oder Tabs ein, da dies die Maße verfälschen kann.</li><li>– Bei Druckschrift sind die Buchstaben alle einzeln und müssen auch Buchstaben einzeln montiert werden.</li><li>– Wenn du Schriftarten kombinieren oder Symbole wie Herzen hinzufügen möchtest, kontaktiere uns gerne über das <a href=\"/pages/kontakt\" title=\"Kontakt\">Kontaktformular</a>.</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_WaR4c4": {
+          "type": "tab",
+          "settings": {
+            "title": "Material",
+            "content": "<p>Unsere 3D-Schriftzüge werden aus hochwertigen, 3 mm dicken Materialien gefertigt und überzeugen durch präzise, saubere Konturen:</p><ul><li><strong>Acrylglas</strong>:<br/>Hochglänzende Oberfläche, modern und stilvoll.<br/>Schutzfolien auf beiden Seiten sorgen für makellose Lieferung.</li><li><strong>Birke-Sperrholz</strong>:<br/>Helles, fein strukturiertes Holz mit edler, natürlicher Ausstrahlung.</li><li><strong>Pappel-Sperrholz</strong>:<br/>Leichtes Holz mit freundlicher, warmer Optik – ideal für verspielte Designs.</li><li><strong>HDF</strong>:<br/>Glatte, stabile Oberfläche, perfekt für schlichte, moderne Gestaltungen.</li></ul><p>Alle Schriftzüge werden mit größter Sorgfalt gefertigt.<br/><strong>Made in Germany.</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_YEmt4H": {
+          "type": "tab",
+          "settings": {
+            "title": "Montage",
+            "content": "<p>Anzubringen ist das Produkt ganz einfach mit <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\"><strong>Klebeknete</strong></a>. </p><p>Schaue dir <a href=\"/pages/montageanleitung\" target=\"_blank\" title=\"Montageanleitung\"><em><strong>hier</strong></em></a> an wie leicht es geht!</p><p>Bitte prüfe aber zuerst, ob das Material für deine Oberfläche geeignet ist.</p>",
+            "page": ""
+          }
+        },
+        "tab_FtU9RJ": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "VERSAND",
+            "content": "<p>Die Lieferung erfolgt bei einem Bestellwert über 50€ <strong>versandkostenfrei</strong>. Bei einem Bestellwert unter 50€ fällt eine Versandpauschale von 4,95€ an. </p>",
+            "page": ""
+          }
+        },
+        "tab_fnzUtx": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "STORNIERUNGEN",
+            "content": "<p>Wir akzeptieren Stornierungen innerhalb von 24 Stunden nach Bestellungseingang.</p>",
+            "page": ""
+          }
+        },
+        "tab_ETQYi7": {
+          "type": "tab",
+          "settings": {
+            "title": "Häufig gestellte Fragen",
+            "content": "<p><strong>Ist der Versand kostenlos?<br/></strong>Ja, in Deutschland ist der Versand kostenlose!</p><p><strong>Wird Befestigungsmaterial mitgeliefert?<br/></strong>Du kannst <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\">Klebeknete</a> optional mitbestellen, sie wird jedoch nur geliefert, wenn sie tatsächlich bestellt wurde.</p><p><strong>Kann ich die einzelnen Wörter so anordnen, wie ich es möchte?<br/></strong>Ja, die einzelnen Wörter sind nicht miteinander verbunden und können nach Belieben angeordnet werden.</p><p><strong>Wie lange dauert der Versand?<br/></strong>Das Paket wird in der Regel innerhalb von 2-5 Werktagen versendet.</p><p><strong>Woher kommt meine Bestellung?<br/></strong>Deine Bestellung wird in Burbach in Nordrhein-Westfalen angefertigt.</p><p><strong>Welche Zahlungsmethoden bietet ihr an?<br/></strong>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay und Sofortüberweisung als Zahlungsmethoden an.</p><p><strong>Kann ich auch mehrere Schriftarten in einen individuellen Schriftzug kombinieren?<br/></strong>Ja das ist kein Problem! Kontaktiere uns dafür gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p><p><strong>Besteht die Möglichkeit ein Logo oder ein individuelles Wandbild zu erstellen?<br/></strong>Ja das ist in den meisten Fällen möglich, wir müssen jedoch erst die Herstellbarkeit überprüfen. Um ein Logo/individuelles Wandbild zu erstellen, müsstest du uns die Datei im svg-, dfx- oder ai-Dateiformat zur Verfügung stellen. Falls dieses Format nicht vorhanden ist, können wir es auch gegen einen Aufpreis per Hand nachzeichnen! Kontaktiere uns einfach über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p><p><strong>Hast du noch weitere Fragen?<br/></strong>Kontaktiere uns gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>",
+            "page": ""
+          }
+        },
+        "share_Fjd9cH": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "description_kA8Fig",
+        "tab_LKHdHg",
+        "tab_WaR4c4",
+        "tab_YEmt4H",
+        "tab_FtU9RJ",
+        "tab_fnzUtx",
+        "tab_ETQYi7",
+        "share_Fjd9cH"
+      ],
+      "settings": {}
+    },
+    "rich_text_YCNraX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YMDNnz": {
+          "type": "heading",
+          "settings": {
+            "title": "Inspirationen von Kunden"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YMDNnz"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1731657956aad9b1f2": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_cUDNKj": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 2,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "individueller-3d-schriftzug"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_cUDNKj"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "image_gallery_kVzJxX": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_WGmPjx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Anja.jpg",
+            "stars": 5,
+            "name": "Anja",
+            "user_letter": "A",
+            "description": "<p>Der schriftzug sieht super aus.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_XXHgh7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Melina.jpg",
+            "stars": 5,
+            "name": "Melina",
+            "user_letter": "Me",
+            "description": "<p>Ich bin so froh den tollen Schriftzug bestellt zuhaben 💕</p>",
+            "new_desc": ""
+          }
+        },
+        "image_B7BYU9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ann_Kathrin.jpg",
+            "stars": 5,
+            "name": "Ann Kathrin",
+            "user_letter": "AK",
+            "description": "<p>Bin sehr zufrieden, sehr gute Verarbeitung und Qualität.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_kMtUdw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stephanie.jpg",
+            "stars": 5,
+            "name": "Stephanie",
+            "user_letter": "S",
+            "description": "<p>Der Kontakt war super, einfach und sehr zuvorkommend. Es wurde auf alle meine Wünsche eingegangen. Ich würde hier definitiv wieder bestellen und auch</p>",
+            "new_desc": ""
+          }
+        },
+        "image_cV7VbB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Barbara.jpg",
+            "stars": 5,
+            "name": "Barbara",
+            "user_letter": "B",
+            "description": "<p>Qualität ist top, entspricht genau der Beschreibung und ist einfach super schön an der Wand!</p>",
+            "new_desc": ""
+          }
+        },
+        "image_wGhjX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Robin.jpg",
+            "stars": 5,
+            "name": "Robin",
+            "user_letter": "R",
+            "description": "<p>Es wird sich Zeit genommen um auf individuelle Kundenwünsche einzugehen. Sehr guter Kundenservice. Das Produkt hat die Erwartungen übertroffen.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_dkMjTH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Britta.jpg",
+            "stars": 5,
+            "name": "Britta",
+            "user_letter": "Br",
+            "description": "<p>Schöner Schriftzug mit sehr glatten Kanten.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_m9RLyX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Caro.jpg",
+            "stars": 5,
+            "name": "Caro",
+            "user_letter": "C",
+            "description": "<p>Ganz toller netter Verkäufer. Super Kommunikation und Umsetzung von Sonderwünschen. Produkt kam sehr gut verpackt an und entspricht genau meinen Vorstellungen. Die Zusatzseite um den Schriftzug zu testen war perfekt. Gern wieder.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_EyFbBx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gudrun.jpg",
+            "stars": 5,
+            "name": "Gudrun",
+            "user_letter": "G",
+            "description": "<p>Sieht sehr schön aus. Passt super. Zwar etwas filigran; man muss etwas vorsichtig damit umgehen. Ich hab Spaß.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_gDmAbt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Michelle.jpg",
+            "stars": 5,
+            "name": "Michelle",
+            "user_letter": "Mi",
+            "description": "<p>Super Service & individuelle Wünsche wurden berücksichtigt. Gerne wieder! Schönes Produkt 🤩</p>",
+            "new_desc": ""
+          }
+        },
+        "image_YqRH8w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Isabell.jpg",
+            "stars": 5,
+            "name": "Isabell",
+            "user_letter": "I",
+            "description": "",
+            "new_desc": ""
+          }
+        },
+        "image_QdeUhm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jessica.jpg",
+            "stars": 5,
+            "name": "Jessica",
+            "user_letter": "J",
+            "description": "<p>Hervorragende Qualität!! Sieht mega aus!!</p>",
+            "new_desc": ""
+          }
+        },
+        "image_ctrraF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Johanna.jpg",
+            "stars": 5,
+            "name": "Johanna",
+            "user_letter": "J",
+            "description": "<p>Sehr Schick erfüllte meine Erwartungen</p>",
+            "new_desc": ""
+          }
+        },
+        "image_WxQWwD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stefan.jpg",
+            "stars": 5,
+            "name": "Stefan",
+            "user_letter": "St",
+            "description": "<p>Ein super Service. Der Verkäufer war engagiert und hat alles perfekt umgesetzt. Zudem hat er wahnsinnig schnell geantwortet. So dass ich mich schon gefragt habe ob der gute Mann auch mal Pause macht zum schlafen. Vielen lieben Dank nochmals für alles.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_pqhU39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lisa.jpg",
+            "stars": 5,
+            "name": "Lisa",
+            "user_letter": "L",
+            "description": "<p>Wunderschöner und hochwertiger Schriftzug. Die Kundenberatung war super.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_CaBfem": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Manfred.jpg",
+            "stars": 5,
+            "name": "Manfred",
+            "user_letter": "M",
+            "description": "<p>Würde mehr als 5 Sterne für die Qualität aber insbesondere für den Kundenservice geben. Hatte ein Problem durch den Versand und der Kundenservice hat prompt super reagiert! Würde immer wieder hier kaufen.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_93TNKX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sebastian.jpg",
+            "stars": 5,
+            "name": "Sebastian",
+            "user_letter": "Se",
+            "description": "<p>Vielen Dank! Genau so wie es mir vorgestellt habe.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_Ry9fTb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marijella.jpg",
+            "stars": 5,
+            "name": "Marijella",
+            "user_letter": "M",
+            "description": "<p>Habe das zweite Mal bestellt und war wieder vollkommen zufrieden. Es wird schnell geantwortet und auch schnell geliefert. Das Produkt hat eine super Quali :)</p>",
+            "new_desc": ""
+          }
+        },
+        "image_wEEBpr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Michele.jpg",
+            "stars": 5,
+            "name": "Michele",
+            "user_letter": "Mi",
+            "description": "<p>Toller Kundenservice und super Qualität. Eine absolute Kaufempfehlung.</p>",
+            "new_desc": ""
+          }
+        },
+        "image_xkrPVD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sandra.jpg",
+            "stars": 5,
+            "name": "Sandra",
+            "user_letter": "S",
+            "description": "<p>Ein toller Spruch, der genau die richtige Stimmung ins Badezimmer bringt. Qualität ist hochwertig</p>",
+            "new_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WGmPjx",
+        "image_XXHgh7",
+        "image_B7BYU9",
+        "image_kMtUdw",
+        "image_cV7VbB",
+        "image_wGhjX4",
+        "image_dkMjTH",
+        "image_m9RLyX",
+        "image_EyFbBx",
+        "image_gDmAbt",
+        "image_YqRH8w",
+        "image_QdeUhm",
+        "image_ctrraF",
+        "image_WxQWwD",
+        "image_pqhU39",
+        "image_CaBfem",
+        "image_93TNKX",
+        "image_Ry9fTb",
+        "image_wEEBpr",
+        "image_xkrPVD"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Inspirationen von Kunden",
+        "round_images": false,
+        "color_background": "#f9f9f9"
+      }
+    },
+    "rich_text_VAJU7k": {
+      "type": "rich-text",
+      "blocks": {
+        "text_m8yPhB": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Warum unser 3D–Schriftzug perfektl für dein Zuhause ist!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_m8yPhB"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "slideshow_84xd3k": {
+      "type": "slideshow",
+      "blocks": {
+        "image_iwTgAQ": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Desktop_standard.jpg",
+            "image_mobile": "shopify://shop_images/Standard_mobile.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_iwTgAQ"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_mrE3VB": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/2_dcfc6f36-d949-434e-a114-faf9593d5e85.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Qualität und Nachhaltigkeit",
+        "text": "<p>Unsere Schriftzüge werden aus <strong>hochwertigem, recycelbarem Material </strong>gefertigt. Dank präziser Lasertechnologie sind die Kanten makellos, und das Material bleibt lange farbintensiv. Zusätzlich ist das unser Material UV–  und wasserbeständig, sodass es auch im Außenbereich seine Farbe und Form behält. Qualität, die nicht nur schön aussieht, sondern auch umweltfreundlich ist.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_yrFV7m": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/4_efa27fb2-ac5f-4d22-811f-90aade0efc8c.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Einfache Montage",
+        "text": "<p>Unsere Schriftzüge lassen sich <strong>mühelos anbringen</strong> – zum Beispiel mit Klebeknete. So kannst du sie flexibel und <strong>ohne Werkzeug</strong> an deinen Wänden befestigen und bei Bedarf rückstandslos wieder entfernen. Ideal für eine schnelle und unkomplizierte Dekoration!</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_tMqJVA": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/3_1fd5b446-a9e0-4e16-ba80-df27ac88f2d0.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Zeitloses Design",
+        "text": "<p>Dank des <strong>schlichten und modernen Designs </strong>fügt sich unser Schriftzug nahtlos in jeden Raum ein. Ob klassisch, modern oder minimalistisch – diese Dekoration bleibt stilvoll und aktuell, egal wie sich dein Einrichtungsstil verändert.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [],
+      "settings": {
+        "product_recommendations_heading": "Das könnte dir auch gefallen",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "173165785476408135": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_Ae7Ejm": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 8,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_Ae7Ejm"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1723826404e573d8b7": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_MeEq43": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_MeEq43"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "customizer_app",
+    "main",
+    "rich_text_YCNraX",
+    "1731657956aad9b1f2",
+    "image_gallery_kVzJxX",
+    "rich_text_VAJU7k",
+    "slideshow_84xd3k",
+    "text_and_image_mrE3VB",
+    "text_and_image_yrFV7m",
+    "text_and_image_tMqJVA",
+    "product-recommendations",
+    "173165785476408135",
+    "1723826404e573d8b7"
+  ]
+}

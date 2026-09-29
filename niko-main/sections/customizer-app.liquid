@@ -1,0 +1,183 @@
+<div class="pop-up-modal">
+    <div class="pop-up-content">
+       <span class="close-button">&times;</span>
+       <span class="size-chart-content"><img src="https://cdn.shopify.com/s/files/1/0606/9374/1798/files/WhatsApp_Image_2021-11-28_at_12.31.15_PM.jpg?v=1638257792" alt="" /></span>
+    </div>
+ </div>
+ 
+ <div class="pop-up-modal2">
+    <div class="pop-up-content2">
+       <span class="close-button2">&times;</span>
+       <span class="size-chart-content2"><img src="https://cdn.shopify.com/s/files/1/0606/9374/1798/files/Screen_Shot_2021-11-28_at_12.38.55_PM.jpg?v=1638258261" alt="" /></span>
+    </div>
+ </div>
+
+ {% for block in section.blocks %}
+   {% case block.type %}
+     {% when '@app' %}
+       <div id="app-start-rating" style="display:none;">
+         {% render block %}
+       </div>
+   {% endcase %}
+ {% endfor %}
+ 
+ {% include 'product-customizer' %}
+
+<!-- <span style="font-family:dortmund-neon-icons;font-size:30px;padding:1rem;display:block;">For Testing... 'Hi'</span> -->
+ <script>
+   // Override default values of shop.strings for each template.
+   // Alternate product templates can change values of
+   // add to cart button, sold out, and unavailable states here.
+   theme.productStrings = {
+     addToCart: {{ 'products.product.add_to_cart' | t | json }},
+     soldOut: {{ 'products.product.sold_out' | t | json }},
+     unavailable: {{ 'products.product.unavailable' | t | json }}
+   };
+ 
+ </script>
+<script src="{{ 'custom-timer.js' | asset_url }}"></script>
+{% schema %}
+  {
+    "name": "Customizer App",
+    "settings": [
+      {
+        "type":"liquid",
+        "id": "shipping_text",
+        "label": "Shipping Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "delivery_icons",
+        "label": "Delivery Icons"
+      },
+            {
+        "type": "text",
+        "id": "point_one",
+        "label": "custom point"
+      },
+      {
+        "type": "text",
+        "id": "title_top_note",
+        "label": "Title Top Note",
+        "default": "Von über 3.500 Kunden geliebt"
+      },
+      {
+        "type": "html",
+        "id": "title_bottom_text",
+        "label": "Title Bottom Text"
+      },
+            {
+        "type": "header",
+        "content": "Discount"
+      },
+      {
+        "type": "checkbox",
+        "id": "discount_enable",
+        "label": "Enable Discount",
+        "default": false
+      },
+      {
+        "type": "number",
+        "id": "discount",
+        "label": "Discount",
+        "default": 5,
+        "info": "Enter discount in percentage(%)"
+      },
+      {
+        "type": "header",
+        "content": "Reviews Note"
+      },
+      {
+        "type": "checkbox",
+        "id": "reviews_note_enable",
+        "label": "Enable Reviews Note",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "reviews_note_text",
+        "label": "Text",
+        "default": "Anna, Tanja und 5000 weitere lieben ihr Lieblingswerk"
+      },
+      {
+        "type": "image_picker",
+        "id": "reviews_note_check",
+        "label": "Check Mark Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "reviews_note_img_1",
+        "label": "First Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "reviews_note_img_2",
+        "label": "Second Image"
+      },
+      {
+        "type": "header",
+        "content": "Size Guide"
+      },
+      {
+        "type": "text",
+        "id": "size_chart_label",
+        "label": "Size Guide Label",
+        "default":"Größenhilfe"
+      },
+      {
+        "type": "header",
+        "content": "Discount Note"
+      },
+      {
+        "type": "image_picker",
+        "id": "discount_note_img",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "discount_note_label",
+        "label": "Discount Note Label",
+        "default":"Mengenrabatt ab 2 Artikel:"
+      },
+      {
+        "type": "text",
+        "id": "discount_note_action_text",
+        "label": "Discount Note Action Text",
+        "default":"Erfahre mehr"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "@app"
+      },
+      {
+        "type": "timer",
+        "name":"Custom Delivery Time",
+        "settings": [
+          {
+            "type": "liquid",
+            "id":"code",
+            "label":"Add HTML Here"
+          },
+          {
+            "type": "checkbox",
+            "id":"enable_new",
+            "label": "Enable New timer",
+            "default":true,
+            "info":"It will give middle time functionality not the two times, time between of them."
+          },
+          {
+            "type": "liquid",
+            "id":"html",
+            "label":"Add HTML Here"
+          },
+          {
+            "type": "color",
+            "id":"textclr",
+            "label": "Text Color"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

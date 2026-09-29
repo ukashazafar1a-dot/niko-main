@@ -1,0 +1,21 @@
+<style>
+  .cart-timer-wrap{
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+  }
+  .cart-timer-main{
+    background: var(--cart-annc-color);
+    border:1px solid #ececec;
+    border-radius:4px;
+    padding:8px;
+    text-align:left;
+    color: var(--cart-annc-textcolor);
+  }
+</style>
+<div class="cart-timer-wrap">
+  <div class="cart-timer-main">
+    {{ section.settings.code }}
+  </div>
+</div>
+<script src="{{ 'custom-timer.js' | asset_url }}"></script>

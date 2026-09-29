@@ -1,0 +1,45 @@
+{
+  "name": "shopify-themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js --progress --color",
+    "build": "webpack --config webpack.prod.js --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaheerabbasraan/neon-customizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaheerabbasraan/neon-customizer/issues"
+  },
+  "homepage": "https://github.com/zaheerabbasraan/neon-customizer#readme",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "fitty": "^2.3.5",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-indiana-drag-scroll": "^2.1.0",
+    "react-responsive": "^9.0.0-beta.5",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@svgr/webpack": "^6.1.2",
+    "babel-loader": "^8.2.3",
+    "core-js": "^3.19.3",
+    "dotenv-webpack": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^5.8.0"
+  }
+}

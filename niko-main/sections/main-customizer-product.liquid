@@ -1,0 +1,88 @@
+<div class="page-content">
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'tab' -%}
+              {% assign tab_id = block.id | append: product.id %}
+                {% capture tab_content %}
+                  {{ block.settings.content }}
+                  {{ block.settings.page.content }}
+                {% endcapture %}
+                {% unless tab_content == blank and block.settings.title == blank %}
+                  <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                    {%- render 'tab', id: tab_id, title: block.settings.title, content: tab_content -%}
+                  </div>
+                {% endunless %}
+            {%- when 'description' -%}
+              <div class="product-block{% if block.settings.is_tab %} product-block--tab{% endif %}" {{ block.shopify_attributes }}>
+                {%- assign id = block.id | append: product.id -%}
+                {%- render 'product-description', id: id, product: product, is_tab: block.settings.is_tab -%}
+              </div>
+            {%- when 'share' -%}
+              <div class="product-block" {{ block.shopify_attributes }}>
+                {%- render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product -%}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Main Customizer Product",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "description",
+      "name": "Description",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "is_tab",
+          "label": "t:product_block.description.settings.is_tab.label"
+        }
+      ]
+    },
+    {
+      "type": "tab",
+      "name": "t:product_block.tab.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:product_block.tab.settings.title.label",
+          "default": "Shipping information"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:product_block.tab.settings.content.label",
+          "default": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:product_block.tab.settings.page.label"
+        }
+      ]
+    },
+    {
+      "type": "share",
+      "name": "t:product_block.share_on_social.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:product_block.share_on_social.settings.content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

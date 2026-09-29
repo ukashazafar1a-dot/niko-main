@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Verwandle deine Wände in persönliche Kunstwerke",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify://collections/alle-produkte",
+            "link_text": "Produkte entdecken",
+            "link_2": "shopify://products/schriftzug-kuschelecke-aus-hochwertigem-acrylglas-lieblingsplatz-wanddeko-wohnzimmer-schlafzimmer-deko-wandbild-einrichtungsideen",
+            "link_text_2": "",
+            "color_accent": "#f9ca4f",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/Etsy_Shop_Banner_Beige_Beauty_Nude_Handmade_1800_x_800_px_75d609c4-7c0b-4858-8844-cc857a1ebd71.png",
+            "image_mobile": "shopify://shop_images/freepik__erstelle-ein-einzelnes-neu-erfundenes-logo-fr-ein-__96291_f4870218-3780-4ac4-a62a-9d0b63c12969.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 1.618em !important; font-weight: bold; background: #c6b097; padding: 0.8rem; border-radius: 3px; margin: auto; opacity: 0.9; color: white; text-transform: none; letter-spacing: 1px;}",
+        ".btn {letter-spacing: 1px; text-transform: none;}",
+        ".hero__text-shadow {display: flex; flex-direction: column; align-items: rig;}",
+        ".hero__link {margin-top: 25px; /* Abstand zwischen Heading und Button */}"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "featured_collections_QHRQpJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_KF7XNH": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalisierter-schriftzug",
+            "title": "",
+            "cta_custom_link": "https://www.dein-lieblingswerk.de/products/individueller-3d-schriftzug",
+            "focal_point": "center center"
+          }
+        },
+        "collection_zc3gG7": {
+          "type": "collection",
+          "settings": {
+            "collection": "custom-logo",
+            "title": "",
+            "cta_custom_link": "shopify://products/logo",
+            "focal_point": "center center"
+          }
+        },
+        "collection_DjPNpR": {
+          "type": "collection",
+          "settings": {
+            "collection": "schriftzuge",
+            "title": "",
+            "cta_custom_link": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_9bUQz3": {
+          "type": "collection",
+          "settings": {
+            "collection": "wandbilder",
+            "title": "",
+            "cta_custom_link": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_KF7XNH",
+        "collection_zc3gG7",
+        "collection_DjPNpR",
+        "collection_9bUQz3"
+      ],
+      "settings": {
+        "title": "Finde dein perfektes Wandhighlight",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "featured_collection_636b4b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Das könnte dir auch gefallen",
+        "home_featured_products": "bestseller",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "hero_video_PrPwqe": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Bring dein\nMarke zum Leben erwecken.",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/7c8ae510ec5d4e269fd1d5fc03ce2ed4.mp4",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "300px"
+      }
+    },
+    "text_with_icons_WYKwXJ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_N6NQ6W": {
+          "type": "text_block",
+          "settings": {
+            "icon": "gift",
+            "title": "Personalisierung nach Wunsch",
+            "text": "<p>Dein Design, dein Stil! Ob Name, Zitat, Logo oder Symbol – unsere personalisierten Schriftzüge machen es möglich. Wünschst du mehr? Kontaktiere uns, wir setzen deine Ideen schnell und professionell um!</p>"
+          }
+        },
+        "text_block_hyg3qb": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "11500+ zufriedene Kunden",
+            "text": "<p>Über 11500 Kunden haben sich bereits für unsere Produkte entschieden und sind begeistert. Wir sind stolz darauf, so vielen Menschen Freude bereiten zu dürfen.</p>"
+          }
+        },
+        "text_block_UhpULe": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Geld – Zurück – Garantie",
+            "text": "<p>Unpersonalisierte Produkte kannst du innerhalb von 14 Tage nach Erhalt zurücksenden. Nach Eingang der Rücksendung erstatten wir dir den Kaufbetrag – schnell und unkompliziert!</p><p>       </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_N6NQ6W",
+        "text_block_hyg3qb",
+        "text_block_UhpULe"
+      ],
+      "custom_css": [
+        "h4 {font-size: 2em;}",
+        "@media screnn and (max-width: 750px) {.index-section {margin-bottom: 0; }}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "rich_text_GPddgt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zRJBAf": {
+          "type": "heading",
+          "settings": {
+            "title": "Kundenzufriedenheit steht bei uns an erster Stelle!"
+          }
+        },
+        "text_4x8HM4": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Was unsere Kunden sagen: </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zRJBAf",
+        "text_4x8HM4"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "17316673853d0cfcaa": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_x79mRE": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 8,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_x79mRE"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "faq_wRtFbG": {
+      "type": "faq",
+      "blocks": {
+        "question_hmhnT8": {
+          "type": "question",
+          "settings": {
+            "title": "Ist der Versand kostenlos?",
+            "text": "<p>Ab einem Warenwert von 50€ ist der Versand kostenlos.</p>"
+          }
+        },
+        "question_Ex8HtY": {
+          "type": "question",
+          "settings": {
+            "title": "Wird Befestigungsmaterial mitgeliefert?",
+            "text": "<p>Nein, da jeder den Schriftzug auf unterschiedlichen Untergründen befestigen möchte und es keine universelle Lösung gibt. Bei Fragen zur Befestigung kannst du uns gerne kontaktieren.</p>"
+          }
+        },
+        "question_fd3DcJ": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die einzelnen Wörter so anordnen, wie ich es möchte?",
+            "text": "<p>Ja, die einzelnen Wörter sind nicht miteinander verbunden und können nach Belieben angeordnet werden.</p>"
+          }
+        },
+        "question_GPVXCM": {
+          "type": "question",
+          "settings": {
+            "title": "Wann erhalte ich meine Bestellung?",
+            "text": "<p>Das Paket wird in der Regel innerhalb von 3-6 Werktage versendet.</p>"
+          }
+        },
+        "question_n7iP9p": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange kann ich mich nach meiner Bestellung umentscheiden?",
+            "text": "<p>Wir akzeptieren Stornierungen innerhalb von 24 Stunden nach Bestellungseingang.</p>"
+          }
+        },
+        "question_8MKRBa": {
+          "type": "question",
+          "settings": {
+            "title": "Woher kommt meine Bestellung?",
+            "text": "<p>Deine Bestellung wird in Burbach in Nordrhein-Westfalen angefertigt.</p>"
+          }
+        },
+        "question_CeN9yF": {
+          "type": "question",
+          "settings": {
+            "title": "Welche Zahlungsmethoden bietet ihr an?",
+            "text": "<p>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay und Sofortüberweisung als Zahlungsmethoden an.</p>"
+          }
+        },
+        "question_cW7rkU": {
+          "type": "question",
+          "settings": {
+            "title": "Hast du noch weitere Fragen?",
+            "text": "<p>Kontaktiere uns gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_hmhnT8",
+        "question_Ex8HtY",
+        "question_fd3DcJ",
+        "question_GPVXCM",
+        "question_n7iP9p",
+        "question_8MKRBa",
+        "question_CeN9yF",
+        "question_cW7rkU"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "17133843952858d0f4": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_FR7cFc": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_FR7cFc"
+      ],
+      "custom_css": [
+        "@media screnn and (max-width: 750px) {.index-section {margin-top: 0; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_collections_QHRQpJ",
+    "featured_collection_636b4b",
+    "hero_video_PrPwqe",
+    "text_with_icons_WYKwXJ",
+    "rich_text_GPddgt",
+    "17316673853d0cfcaa",
+    "faq_wRtFbG",
+    "17133843952858d0f4"
+  ]
+}

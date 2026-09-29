@@ -1,0 +1,12 @@
+<svg width="70px" height="70px" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+    <g id="circle" stroke="#DDDDDD"><circle id="Oval" cx="35" cy="35" r="34.5"></circle></g>
+    <g id="support" transform="translate(13.000000, 24.000000)" strokeWidth="0.849218">
+    <rect id="Rectangle" stroke="var(--secondary-colour)" x="0" y="0" width="44" height="22" rx="1.27383"></rect>
+    <path d="M14,7 C14.8245152,8.42384253 15.6669762,10.0289233 17.6106277,10.4640415 C18.9124716,10.7554723 19.5070834,8.39645793 19.8285525,7.61436769 C20.3956098,6.23442165 19.4049198,10.5240312 19.0413418,11.9542325 C18.6305679,13.5699112 17.9513143,15.3311483 17.9513143,17" id="Path" stroke="#FFC700" strokeLinecap="round" strokeLinejoin="round"></path>
+    <path d="M23.733785,11 C22.108614,11.511357 23.5280627,15.152325 24.6711346,13.6309127 C25.3325784,12.7504366 24.9311431,11.223902 24.0461956,11.223902" id="Path" stroke="#FFC700" strokeLinecap="round" strokeLinejoin="round"></path>
+    <path d="M27.5,9 C27.5,10.6666667 27.5,12.3333333 27.5,14" id="Path" stroke="#FFC700" strokeLinecap="round" strokeLinejoin="round"></path>
+    <path d="M27.5,16.0754 C27.5,16.3584 27.5,16.6415 27.5,16.9246" id="Path" stroke="#FFC700" strokeLinecap="round" strokeLinejoin="round"></path>
+    </g>
+</g>
+</svg>

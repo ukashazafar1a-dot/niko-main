@@ -1,0 +1,164 @@
+{%- assign swatch_file_extension = 'png' -%}
+
+
+{%- capture size_chart_title -%}
+  {{ 'products.general.size_chart' | t }} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-size-chart" viewBox="0 0 64 64"><path d="M22.39 33.53c-7.46 0-13.5-3.9-13.5-8.72s6-8.72 13.5-8.72 13.5 3.9 13.5 8.72a12 12 0 0 1-.22 1.73"/><ellipse cx="22.39" cy="24.81" rx="3.28" ry="2.12"/><path d="M8.89 24.81V38.5c0 7.9 6.4 9.41 14.3 9.41h31.92V33.53H22.39m24.39 0v7.44m-8.13-7.44v7.44m-8.13-7.44v7.44m-8.13-7.44v7.44"/></svg>
+{%- endcapture -%}
+
+
+{%- liquid
+  assign is_size = false
+  assign size_trigger = 'products.general.size_trigger' | t | downcase
+  assign downcased_option = option.name | downcase
+
+
+  if downcased_option contains size_trigger
+    assign is_size = true
+  endif
+-%}
+{% style %}
+  .variant-wrapper.js.label_update_selected {
+    padding-top: 1.2rem;
+}
+.jsremove_before_class .variant-input-wrap input[type=radio]:checked + label:before {
+    content: " ";
+    position: absolute;
+    width: 23px; /* Increased size for spacing */
+    height: 23px;
+    background: #000;
+    top: -11px; /* Adjusted for spacing */
+    left: 18px !important; /* Adjusted for spacing */
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-image: url(https://cdn.shopify.com/s/files/1/0765/1301/8186/files/hd-white-tick-mark-icon-transparent-background-701751695051247opp5aqwrto-removebg-preview.png?v=1739264316);
+    background-size: 60%; /* Reduce size to add spacing */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px; /* Adds space around the image */
+}
+
+
+  {% endstyle %}
+<div class="variant-wrapper js  {%- if is_color or is_material -%} remove_before_class {% else %} label_update_selected {% endif %}" data-type="button">
+  <label class="variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
+    for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">{{ option.name }}:
+    {%- if connect_to_sizechart and is_size -%}
+      <span class="variant__label-info">
+    {%- render
+      'tool-tip-trigger',
+      title: size_chart_title,
+      content: section.blocks[sizechart_index].settings.size_chart.content,
+      context: 'size-chart'
+    -%}
+</span>
+    {%- endif -%}
+    {% comment %}
+    {%- if is_color -%}
+    {% endcomment %}
+      <span class="variant__label-info">
+    <span
+      id="selected-variant-labelser"
+      data-variant-color-label
+      data-index="{{ forloop.index0 }}"
+      data-option-index="{{ color_option_index }}">
+      {{ option.selected_value }}
+    </span>
+</span>
+    {% comment %}
+    {%- endif -%}
+    {% endcomment %}
+  </label>
+  {%- assign option_index = forloop.index -%}
+  <fieldset class="variant-input-wrap"
+    name="{{ option.name }}"
+    data-index="option{{ option_index }}"
+    data-handle="{{ option.name | handleize }}"
+    id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
+    <legend class="hide">{{ option.name }}</legend>
+    {%- for value in option.values -%}
+      {%- liquid
+        assign product_available = true
+        if product.options.size == 1
+          assign product_available = product.variants[forloop.index0].available
+        endif
+      -%}
+      
+      <div
+        class="variant-input"
+        data-index="option{{ option_index }}"
+        data-value="{{ value | escape }}">
+        <input type="radio"
+          form="{{ form_id }}"
+          {% if option.selected_value == value %} checked="checked"{% endif %}
+          value="{{ value | escape }}"
+          data-index="option{{ option_index }}"
+          name="{{ option.name }}"
+          data-variant-input
+          class="{% unless product_available %} disabled{% endunless %}{% if is_color or is_material %} variant__input--color-swatch{% endif %}"
+          {% if is_color or is_material %} data-color-name="{{ value | escape }}"{% endif %}
+          {% if is_color or is_material %} data-color-index="{{ color_option_index }}"{% endif %}
+          id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}">
+        {%- if is_color or is_material -%}
+         {%- liquid
+  # Mapping: Hier müssen die Namen EXAKT so stehen, wie sie im Produkt hinterlegt sind (mit Klammern)
+  assign color_map = "Acrylglas hochglanz schwarz:Black, Acrylglas hochglanz weiß:White, Acrylglas matt schwarz:Matt-Black, Acrylglas matt weiß:Matt-White, Birke:Birke, Pappel:Pappel, HDF:HDF, Eiche:Eiche, Rot:Red, Blau:Blue, Grün:Green, Gelb:Yellow, Grau:Gray, Braun:Brown, Lila:Purple, Orange:Orange, Acrylglas (3 mm) hochglanz schwarz:Black, Acrylglas (3 mm) hochglanz weiß:White, Acrylglas (3 mm) matt schwarz:Matt-Black, Acrylglas (3 mm) matt weiß:Matt-White, Acrylglas (5 mm) hochglanz schwarz:Black, Acrylglas (5 mm) hochglanz weiß:White, Acrylglas (5 mm) matt schwarz:Matt-Black, Birke (3 mm):Birke, Pappel (3 mm):Pappel, HDF (3 mm):HDF, Eiche (3 mm):Eiche, Acrylglas (3 mm) matt gold:matt-gold, Acrylglas (3 mm) hochglanz gold:hochglanz-gold, Acrylglas (3 mm) matt silber:Matt-silber, Acrylglas (3 mm) matt beige:matt-beige, Acrylglas (3 mm) matt türkis:matt-tuerkis, Acrylglas (3 mm) matt mint grün:matt-mint_gruen" | split: ", "
+
+  # Wir nehmen den Wert "value" (so wie er im Produkt steht) komplett
+  assign matched = false
+  assign color_name = value
+
+  for pair in color_map
+    assign parts = pair | split: ":"
+    assign key = parts[0] | strip
+    assign val = parts[1] | strip
+
+    # Wenn der Produkt-Name (mit Klammern) exakt mit dem Key in der Liste übereinstimmt
+    if value == key
+      assign color_name = val
+      assign matched = true
+      break
+    endif
+  endfor
+
+
+            # konvertiere in Dateinamen
+            assign color_file_name = color_name | handle | append: '.' | append: swatch_file_extension
+            assign color_image = color_file_name | file_img_url: '50x50' | prepend: 'https:' | split: '?' | first
+            assign color_swatch_fallback = color_name | split: ' ' | last | handle
+          -%}
+          <label
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
+            class="variant__button-label color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
+            style="background: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
+          >
+            {{ value | escape }}
+          </label>
+        {%- else -%}
+          <label
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
+            class="variant__button-label{% unless product_available %} disabled{% endunless %}">{{ value | escape }}</label>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </fieldset>
+</div>
+<script>
+document.querySelectorAll(".label_update_selected fieldset input").forEach(button => {
+  button.addEventListener("click", function() {
+    let selectedValue = this.getAttribute("value");
+    let container = this.closest(".label_update_selected"); // Find the closest parent container
+    let labelElement = container ? container.querySelector("#selected-variant-labelser") : null;
+
+    if (labelElement) {
+      labelElement.textContent = selectedValue;
+    } else {
+      console.error("Element with ID 'selected-variant-labelser' not found in the closest container.");
+    }
+  });
+});
+</script>

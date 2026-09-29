@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "faq_GwXcNX": {
+      "type": "faq",
+      "blocks": {
+        "question_iGyRic": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die einzelnen Wörter so anordnen, wie ich es möchte?",
+            "text": "<p>Ja, die einzelnen Wörter sind nicht miteinander verbunden und können nach Belieben angeordnet werden.</p>"
+          }
+        },
+        "question_3wGFNm": {
+          "type": "question",
+          "settings": {
+            "title": "Wann erhalte ich meine Bestellung?",
+            "text": "<p>Das Paket wird in der Regel innerhalb von 3-6 Werktage versendet.</p>"
+          }
+        },
+        "question_WzmVaH": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange kann ich mich nach meiner Bestellung umentscheiden?",
+            "text": "<p>Wir akzeptieren Stornierungen innerhalb von 24 Stunden nach Bestellungseingang.</p>"
+          }
+        },
+        "question_iATDCH": {
+          "type": "question",
+          "settings": {
+            "title": "Woher kommt meine Bestellung?",
+            "text": "<p>Deine Bestellung wird in Burbach in Nordrhein-Westfalen angefertigt.</p>"
+          }
+        },
+        "question_KTXBcY": {
+          "type": "question",
+          "settings": {
+            "title": "Welche Zahlungsmethoden bietet ihr an?",
+            "text": "<p>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay und Sofortüberweisung als Zahlungsmethoden an.</p>"
+          }
+        },
+        "question_74FmTL": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich auch mehrere Schriftarten in einen individuellen Schriftzug kombinieren?",
+            "text": "<p>Ja das ist kein Problem! Kontaktiere uns dafür gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>"
+          }
+        },
+        "question_CAYPW4": {
+          "type": "question",
+          "settings": {
+            "title": "Besteht die Möglichkeit ein Logo oder ein individuelles Wandbild zu erstellen?",
+            "text": "<p>Ja das ist in den meisten Fällen möglich, wir müssen jedoch erst die Herstellbarkeit überprüfen. Um ein Logo/individuelles Wandbild zu erstellen, müsstest du uns die Datei im svg-, dfx- oder ai-Dateiformat zur Verfügung stellen. Falls dieses Format nicht vorhanden ist, können wir es auch gegen einen Aufpreis per Hand nachzeichnen! Kontaktiere uns einfach über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_iGyRic",
+        "question_3wGFNm",
+        "question_WzmVaH",
+        "question_iATDCH",
+        "question_KTXBcY",
+        "question_74FmTL",
+        "question_CAYPW4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Häufig gestellte Fragen"
+      }
+    },
+    "rich_text_KYdbMh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A4p4VN": {
+          "type": "heading",
+          "settings": {
+            "title": "Über 5000 Kunden besitzen ihr Lieblingswerk"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A4p4VN"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1723735984a8bd7394": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1723754656146dd628": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_GwXcNX",
+    "rich_text_KYdbMh",
+    "1723735984a8bd7394",
+    "1723754656146dd628"
+  ]
+}

@@ -1,0 +1,369 @@
+{% style %}
+ #CartDrawerForm .drawer__header.appear-animation.appear-delay-1 {
+    display: flex
+;
+    align-items: center ;
+}
+    #CartDrawerForm  .drawer__fixed-header, .drawer__header {
+        min-height: 68px;
+    }
+ #CartDrawerForm .drawer__close {
+    text-align: center;
+    width: fit-content !important;
+}
+ #CartDrawerForm .cart__item-sub.cart__item-row div:nth-child(2) {
+    font-weight: 600;
+}
+ #CartDrawerForm .cart__item-row.text-center {
+    display: none;
+}
+ #CartDrawerForm .cart__checkout-wrapper {
+    margin-top: 10px;
+}
+ #CartDrawerForm .cart__item-row {
+    margin-bottom: 11px;
+}
+  {% endstyle %}
+{% style %}
+  :root{
+    --cart-annc-color: {{ section.settings.annc_clr }};
+    --cart-annc-textcolor: {{section.settings.annc_text_clr}};
+    --cart-cgp-color: {{section.settings.cgp_clr}};
+    --cart-cgp-textclr: {{section.settings.cgp_text_clr}};
+    --cart-cgp-borderclr: {{ section.settings.cgp_border_clr}};
+  }
+  .progress-bar{
+    display:none;
+  }
+.newly-cpg-wrap {
+    max-width: 89%;
+    width: 100%;
+    margin: 0 auto 0;
+    position: fixed;
+    top: 68px;
+    background: #fff;
+    padding-top: 15px;
+    border-bottom:2px solid #e6e6e6;
+}
+  .new-annc-text{
+    margin:0 ;
+    text-align:center;
+  }
+  .cpg-bar {
+    position:relative;
+    min-height:65px!important ;
+    --light-green: var(--cart-cgp-color);
+    color: var(--cart-cgp-textclr);
+  }
+  .progress-lines{
+    /* border: 2px solid #5bae50; */
+    border-radius:50px;
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:16px;
+    top:17px;
+    z-index:0;
+    --only: 0%;
+    background: linear-gradient(to right, #5bae50 var(--progress), #c3e6c8 var(--only));
+  }
+  .rf-progress-line-{{ section.id }}{
+    border: none;
+    border-radius:50px;
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:16px;
+    top:17px;
+    z-index:0;
+    --only: 0%;
+    background: linear-gradient(to right, #5bae50 var(--progress), #ffffff var(--only));
+  }
+  .cpg-bar .progress-circles{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:5px 0 5px 0;
+  }
+  .progress-labels{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+  }
+  .progress-circle{
+    width:40px;
+    height:40px;
+    /* border: 2px solid #5bae50; */
+    background:#c3e6c8;
+    border-radius:50%;
+    position:relative;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .progress-circle.filled{
+    background: #5bae50;
+  }
+  .progress-circle.filled .inside-line {
+    background: #5bae50;
+  }
+  .pc-text{
+    z-index:1;
+    font-size:13px;
+    font-weight: 700;
+  }
+  .inside-line{
+    position: absolute;
+    width: 44px;
+    height: 12px;
+    top: 12px;
+    z-index: 0;
+     background:#c3e6c8;
+    margin-left: -2px;
+  }
+  .filled{
+    background: #5bae50;
+  }
+  .cart__item .cart__discount{
+    color:grey;
+  }
+  .cart__item-price-col.text-right{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap: wrap
+  }
+  .cart__price.cart__discount{
+    color:red;
+  }
+  .cart__price {
+    display: block;
+    color: #646464;
+}
+  .cart--amount .cut-red{
+    color:red;
+    padding-left:5px;
+  }
+  [data-cart-amount] .cart__item-sub{
+    margin-bottom:15px;
+  }
+  .newly-cpg-wrap p {
+    font-size: 18px;
+    font-weight: 600;
+}
+  .progress-label.label1 {
+    font-size: 12px;
+}
+  @media screen and (max-width:750px){
+    .newly-cpg-wrap {
+    margin: -1px auto 0rem !important;
+}
+.newly-cpg-wrap p{
+  font-size: 15px !important;
+}
+  }
+{% endstyle %}
+{%- if settings.cart_type == 'drawer' -%}
+  <div id="CartDrawer" class="drawer drawer--right">
+    <form id="CartDrawerForm" action="{{ routes.cart_url }}" method="post" novalidate class="drawer__contents" data-location="cart-drawer">
+      <div class="drawer__fixed-header">
+        <div class="drawer__header appear-animation appear-delay-1">
+          <svg data-name="Icons black 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" style="user-select: auto; width:40px">
+            <defs style="user-select: auto;">
+            <style style="user-select: auto;">
+              .cls-1 {
+                stroke-miterlimit: 10;
+              }
+  
+              .cls-1, .cls-2 {
+                fill: none;
+                stroke: #212121;
+                stroke-linecap: round;
+                stroke-width: 8px;
+              }
+  
+              .cls-2 {
+                stroke-linejoin: round;
+              }
+            </style>
+            </defs>
+            <path class="cls-1" d="m209.57,225.52h-119.15c-3.08,0-5.69-2.28-6.1-5.33l-13.3-98.59c-.5-3.69,2.37-6.98,6.1-6.98h145.74c3.73,0,6.6,3.28,6.1,6.98l-13.3,98.59c-.41,3.05-3.02,5.33-6.1,5.33Z" style="user-select: auto;"></path>
+            <path class="cls-2" d="m102.77,114.62c0-22.17,21.15-40.14,47.23-40.14s47.23,17.97,47.23,40.14h-94.46Z" style="user-select: auto;"></path>
+          </svg>
+          <div class="h2 drawer__title" style="font-size: 1.2rem; margin-bottom:0; text-align: center;">{{ 'cart.general.title' | t }}</div>
+          <div class="drawer__close">
+            <button type="button" class="drawer__close-button js-drawer-close">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+              <span class="icon__fallback-text">{{ 'cart.general.close_cart' | t }}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="drawer__inner">
+        
+        <div class="drawer__scrollable {% if cart.item_count > 1 %} position_unset_cta {% endif %}">
+          <div data-products class="appear-animation appear-delay-2 get_data_cart_count">
+          
+
+          </div>
+
+          {% if settings.cart_notes_enable %}
+            <div class="appear-animation appear-delay-3">
+              <label for="CartNoteDrawer">{{ 'cart.general.note' | t }}</label>
+              <textarea name="note" class="input-full cart-notes" id="CartNoteDrawer">{{ cart.note }}</textarea>
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="drawer__footer appear-animation appear-delay-4 cart_drawer_ctaa">
+          <div data-discounts>
+            {% if cart.cart_level_discount_applications != blank %}
+              <div class="cart__discounts cart__item-sub cart__item-row ">
+                <div>{{ 'cart.general.discounts' | t }}</div>
+                <div class="text-right">
+                  {% for cart_discount in cart.cart_level_discount_applications %}
+                    <div class="cart__discount">
+                      {{ cart_discount.title }} (-{{ cart_discount.total_allocated_amount | money }})
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+
+          <div class="cart__item-sub cart__item-row hello">
+            <div class="ajaxcart__subtotal">{{ 'cart.general.subtotal' | t }}</div>
+{%- assign total_compare_at_price = 0 -%}
+
+{%- for item in cart.items -%}
+  {%- if item.product.compare_at_price -%}
+    {%- assign item_compare_price = item.product.compare_at_price | times: item.quantity -%}
+    {%- assign total_compare_at_price = total_compare_at_price | plus: item_compare_price -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{% style %}
+  .cta_data_drawer {
+    display: flex;
+    gap: 9px;
+}
+  span.total-compare-price::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    top: 49%;
+}
+
+span.total-compare-price {
+    position: relative;
+    color:#646464;
+}
+  {% endstyle %}
+
+         <div class="cta_data_drawer"> 
+           <span class="total-compare-price hide"  data-compare-at-price>{{ total_compare_at_price | money }}</span>  
+           <div data-subtotal>{{ cart.total_price | money }}</div></div>
+          </div>
+          {% style %}
+            .shipping-label {
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    font-size: .8em;
+    letter-spacing: .3em;
+}
+            .shipping-cost {
+    color: #008B10;
+    font-weight: bold;
+    text-align: right;
+
+
+}
+            .custom-shipping-info {
+    display: flex
+;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 8px;
+}
+            .cart__item-sub.cart__item-row div {
+    font-weight: 400 !important;
+}
+            {% endstyle %}
+<p class="custom-shipping-info" style="user-select: auto;">
+  <span class="shipping-label" style="user-select: auto;">VERSAND</span>
+  <span class="shipping-cost" style="user-select: auto;">Kostenlos</span>
+</p>
+          <div class="cart__item-row text-center">
+            <small>
+              {{ 'cart.general.shipping_at_checkout' | t }}<br />
+            </small>
+          </div>
+
+          {% if settings.cart_terms_conditions_enable %}
+            <div class="cart__item-row cart__terms">
+              <input type="checkbox" id="CartTermsDrawer" class="cart__terms-checkbox">
+              <label for="CartTermsDrawer">
+                {% if settings.cart_terms_conditions_page != blank %}
+                  {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_page.url }}
+                {% else %}
+                  {{ 'cart.general.terms' | t }}
+                {% endif %}
+              </label>
+            </div>
+          {% endif %}
+
+          <div class="cart__checkout-wrapper">
+            <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
+              {{ 'cart.general.checkout' | t }}
+            </button>
+
+            {% if additional_checkout_buttons and settings.cart_additional_buttons %}
+              <div class="additional-checkout-buttons additional-checkout-buttons--vertical">{{ content_for_additional_checkout_buttons }}</div>
+            {% endif %}
+          </div>
+          <style>
+            .Drawer__Footer--Subtext {
+    display: flex
+;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+            button.btn.cart__checkout {
+    padding: 10px 0 !important;
+}
+         #CartDrawerForm    .drawer__fixed-header {
+    padding: 0;
+}
+          #CartDrawerForm   .drawer__header {
+    padding: 0 1rem;
+}
+          </style>
+          <div class="Drawer__Footer--Subtext" style="display:none;">
+            <span>100 Tage Rückgaberecht</span>
+            <span>6 Monate Anti-Loch-Garantie</span>
+          </div>
+
+                  {% comment %} <ul class="inline-list payment-icons footer__section cart_drawer_payment">
+          {%- for type in shop.enabled_payment_types -%}
+            <li class="icon--payment">
+              {{ type | payment_type_svg_tag }}
+            </li>
+          {%- endfor -%}
+        </ul> {% endcomment %}
+        </div>
+      </div>
+
+      <div class="drawer__cart-empty appear-animation appear-delay-2">
+        <div class="drawer__scrollable">
+          {{ 'cart.general.empty' | t }}
+        </div>
+      </div>
+    </form>
+  </div>
+{%- endif -%}
+

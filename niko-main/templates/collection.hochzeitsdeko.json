@@ -1,0 +1,121 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "slideshow_GTng9x": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wyq9m4": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Hochzeitsdeko",
+            "title_size": 75,
+            "subheading": "",
+            "link": "shopify://collections/hochzeitsdeko",
+            "link_text": "",
+            "link_2": "shopify://collections/hochzeitsdeko",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Lieblingsplatz-Wanddeko-Schriftzug-Wand-Acrylglas-Geschenk-Wohnzimmer-Schlafzimmer-Esszimmer-Kinderzimmer-schwarz.png",
+            "image_mobile": "shopify://shop_images/Lieblingsplatz-Wanddeko-Schriftzug-Wand-Acrylglas-Geschenk-Wohnzimmer-Schlafzimmer-Esszimmer-Kinderzimmer-schwarz_21e20e5f-20b5-4994-b41d-8ed92cc9f8ef.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wyq9m4"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 20,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    },
+    "17236639552f4ad46b": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_AaA3MQ": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_AaA3MQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "slideshow_GTng9x",
+    "main-collection",
+    "17236639552f4ad46b"
+  ]
+}

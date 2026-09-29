@@ -1,0 +1,209 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_mapFM3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JHxNA8": {
+          "type": "heading",
+          "settings": {
+            "title": "Montageanleitung"
+          }
+        },
+        "text_DQFPax": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Du hast dich für einen unserer Acrylglasschriftzüge entschieden? Hervorragend! Jetzt kommt der spannende Teil: Die Montage. Aber keine Sorge, mit unserer Anleitung geht das kinderleicht!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JHxNA8",
+        "text_DQFPax"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_fwj6rW": {
+      "type": "text-and-image",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Montageanleitung_Bild1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Schritt 1: Paket erhalten? Dann geht’s jetzt los!</h3><p>Dein Paket ist endlich da, wie aufregend! Packe es vorsichtig aus und nimm deinen neuen Acrylglasschriftzug samt Schablone heraus.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_JVhHFU": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Montageanleitung_Bild2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Schritt 2: Schriftzug aus der Schablone nehmen</h3><p>Nun ist es Zeit, den Schriftzug behutsam aus der Schablone zu lösen. Keine Sorge, das geht ganz einfach! Nimm dir einen Moment Zeit und genieße die Vorfreude, während du die Buchstaben befreist.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_hyTUtH": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Montageanleitung_Bild3.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Schritt 3: Schutzfolie entfernen</h3><p><br/>Jetzt wird es spannend: Entferne die Schutzfolie auf beiden Seiten des Schriftzugs. Manchmal kann es ein bisschen knifflig sein, den Anfang zu finden. Aber keine Sorge – wenn du erstmal eine Ecke hast, geht der Rest fast wie von selbst. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_j3tWPY": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Montageanleitung_Bild4.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Schritt 4: Klebeknete vorbereiten</h3><p>Nun kommt beispielsweise die <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\"><strong>Klebeknete</strong></a> ins Spiel. Rolle kleine Kugeln daraus und befestige sie auf der Rückseite des Schriftzugs. Tipp von uns: Lieber etwas mehr Knete verwenden, damit alles sicher hält. So bleibt dein Schriftzug genau dort, wo du ihn haben möchtest.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_FbFzmy": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Montageanleitung_Bild5.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Schritt 5: Schriftzug anbringen</h3><p>Drücke den Schriftzug mit etwas Druck an die gewünschte Stelle an der Wand. Bei Bestellungen, die aus mehreren Wörtern bestehen, hast du die Freiheit, die Wörter so anzuordnen, wie es dir gefällt. Deiner Kreativität sind keine Grenzen gesetzt!</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_9Bxphh": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Montageanleitung_Bild6.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Schritt 6: Zurücklehnen und bewundern</h3><p>Geschafft! Nun kannst du deinen neuen Schriftzug in voller Pracht bestaunen. Nimm dir einen Moment, um das Ergebnis zu genießen und freue dich über dein neues Highlight an der Wand.</p><p>Und das war's auch schon! Ganz einfach, oder? Falls du Fragen hast oder Unterstützung benötigst, zögere nicht, uns zu kontaktieren. Wir sind hier, um dir zu helfen!</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "1723735984a8bd7394": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1723754656146dd628": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_mapFM3",
+    "text_and_image_fwj6rW",
+    "text_and_image_JVhHFU",
+    "text_and_image_hyTUtH",
+    "text_and_image_j3tWPY",
+    "text_and_image_FbFzmy",
+    "text_and_image_9Bxphh",
+    "1723735984a8bd7394",
+    "1723754656146dd628"
+  ]
+}

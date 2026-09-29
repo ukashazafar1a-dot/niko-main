@@ -1,0 +1,274 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "wisereviews_reviews_importer_star_rating_DbH6Ue": {
+          "type": "shopify://apps/wisereviews-reviews-importer/blocks/star-rating/9ef986f0-166f-4cdf-8a67-c9585e8df5a9",
+          "settings": {
+            "product": "",
+            "align": "left"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "text": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "quantity_selector_TGGyPV": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_J8tYyY": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Lieferzeit Berechnung</title>\n    <style>\n        /* Der spezielle Text in Grün, Goudy Old Style Schriftart und fett */\n        #delivery-text {\n            color: #008b10;\n            font-family: 'Goudy Old Style', serif;\n            font-weight: bold;\n            margin: 0;\n            padding: 0;\n            font-size: 20.5px; /* Standard-Schriftgröße, die du anpassen kannst */\n        }\n    </style>\n</head>\n<body>\n\n<p id=\"delivery-text\">\n    Lieferung bis zum <span id=\"delivery-date\"></span>\n</p>\n\n<script>\n    function updateDeliveryDate() {\n        const now = new Date();\n\n        // Zweiter Liefertermin: 7 Tage ab heute\n        const secondDeliveryDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 7);\n\n        // Aktualisieren des Textinhalts im span-Tag\n        document.getElementById('delivery-date').innerText = secondDeliveryDate.toLocaleDateString('de-DE', { day: 'numeric', month: 'long' });\n    }\n\n    // Berechnetes Datum sofort aktualisieren, wenn die Seite geladen wird\n    updateDeliveryDate();\n</script>\n\n</body>\n</html>"
+          }
+        },
+        "timer_ADPKYj": {
+          "type": "timer",
+          "settings": {
+            "code": "Bestelle innerhalb von <span data-delivery-timer=\"\"></span>\nund erhalte deine Lieferung zwischen dem <span data-delivery-first=\"\"></span> und \n<span data-delivery-second=\"\"></span>.",
+            "enable_new": true,
+            "html": "Lieferung bis zum <span data-delivery-third=\"\"></span>",
+            "textclr": "#5bae50"
+          }
+        },
+        "quantity_popup_XHqYcJ": {
+          "type": "quantity_popup",
+          "disabled": true,
+          "settings": {
+            "title": "Mengenrabatt ab 2 Artikel:",
+            "action_text": "<span style=\"text-decoration:underline\">Erfahre mehr</span>",
+            "image": "shopify://shop_images/DeinAbschnittstext_3b0a2657-56dc-44f2-9eb7-363685544831.png"
+          }
+        },
+        "custom_c47GtJ": {
+          "type": "custom",
+          "settings": {
+            "code": "<a href=\"https://www.dein-lieblingswerk.de/products/individueller-3d-schriftzug-aus-acryglas\">\n  <button class=\"btn btn--full\">\n    Text jetzt selbst gestalten\n  </button>\n</a>"
+          }
+        },
+        "custom_NxfFXz": {
+          "type": "custom",
+          "settings": {
+            "code": "<img src= \"https://cdn.shopify.com/s/files/1/0765/1301/8186/files/Bezahlmethoden_individuelleProdukte.png?v=1723745916\">"
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Worldwide shipping"
+          }
+        },
+        "text_EHFcGG": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "MATERIAL",
+            "content": "<p>Unsere Produkte bestehen aus 3 mm hochwertigem Acrylglas. Sie haben eine hochglänzende Oberfläche und präzise Konturen.</p><p>Das Produkt wird mit Schutzfolien auf beiden Seiten geliefert, um sicherzustellen, dass das Acrylglas heile bei dir ankommt.</p>",
+            "page": ""
+          }
+        },
+        "tab_nVN8Jf": {
+          "type": "tab",
+          "settings": {
+            "title": "MONTAGE",
+            "content": "<p>Anzubringen ist das Produkt ganz einfach mit Klebeknete oder Powerstips. </p><p>Schaue dir <a href=\"/pages/montageanleitung\" target=\"_blank\" title=\"Montageanleitung\"><em><strong>hier</strong></em></a> an wie leicht es geht!</p><p>Bitte prüfe aber zuerst, ob das jeweilige Material für deine Oberfläche geeignet ist.</p>",
+            "page": ""
+          }
+        },
+        "tab_QahYbJ": {
+          "type": "tab",
+          "settings": {
+            "title": "Versand",
+            "content": "<p>Die Lieferung erfolgt bei einem Bestellwert über 50€ <strong>versandkostenfrei</strong>. Bei einem Bestellwert unter 50€ fällt eine Versandpauschale von 4,95€ an. </p>",
+            "page": ""
+          }
+        },
+        "tab_gD6pcF": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "STORNIERUNGEN",
+            "content": "<p>Wir akzeptieren Stornierungen innerhalb von 24 Stunden nach Bestellungseingang.</p>",
+            "page": ""
+          }
+        },
+        "tab_MxVU7H": {
+          "type": "tab",
+          "settings": {
+            "title": "Häufig gestellte Fragen",
+            "content": "<p><strong>Ist der Versand kostenlos?<br/></strong>Ab einem Warenwert von 50€ ist der Versand kostenlos.</p><p><strong>Wird Befestigungsmaterial mitgeliefert?<br/></strong>Nein, da jeder den Schriftzug auf unterschiedlichen Untergründen befestigen möchte und es keine universelle Lösung gibt. Bei Fragen zur Befestigung kannst du uns gerne kontaktieren.</p><p><strong>Kann ich die einzelnen Wörter so anordnen, wie ich es möchte?<br/></strong>Ja, die einzelnen Wörter sind nicht miteinander verbunden und können nach Belieben angeordnet werden.</p><p><strong>Wie lange dauert der Versand?<br/></strong>Das Paket wird in der Regel innerhalb von 3-6 Werktage versendet.</p><p><strong>Woher kommt meine Bestellung?<br/></strong>Deine Bestellung wird in Burbach in Nordrhein-Westfalen angefertigt.</p><p><strong>Welche Zahlungsmethoden bietet ihr an?<br/></strong>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay und Sofortüberweisung als Zahlungsmethoden an.</p><p><strong>Hast du noch weitere Fragen?<br/></strong>Kontaktiere uns gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "wisereviews_reviews_importer_star_rating_DbH6Ue",
+        "separator",
+        "variant_picker",
+        "price",
+        "quantity_selector_TGGyPV",
+        "custom_J8tYyY",
+        "timer_ADPKYj",
+        "quantity_popup_XHqYcJ",
+        "custom_c47GtJ",
+        "custom_NxfFXz",
+        "sales_point",
+        "text_EHFcGG",
+        "inventory_status",
+        "description",
+        "tab",
+        "tab_nVN8Jf",
+        "tab_QahYbJ",
+        "tab_gD6pcF",
+        "tab_MxVU7H",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "reviews_note_enable": false,
+        "reviews_note_text": "Anna, Tanja und 5000 weitere lieben ihr Lieblingswerk"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [],
+      "settings": {
+        "product_recommendations_heading": "Das könnte dir auch gefallen",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "custom_css": [
+        ".section-header {display: flex; flex-direction: column; /* Stapelt die Kinder vertikal */ align-items: center; /* Zentriert die Kinder horizontal */ text-align: center; /* Zentriert den Text innerhalb der Kinder */}",
+        ".section-header__link {margin-top: 15px; /* Fügt einen kleinen Abstand oben hinzu */ white-space: nowrap; /* Verhindert, dass der Text im Link umbricht */}"
+      ],
+      "settings": {
+        "recent_count": 8
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    },
+    "171217233516cd7de6": {
+      "type": "apps",
+      "blocks": {
+        "wisereviews_reviews_importer_product_reviews_bDY9Pw": {
+          "type": "shopify://apps/wisereviews-reviews-importer/blocks/product-reviews/9ef986f0-166f-4cdf-8a67-c9585e8df5a9",
+          "settings": {
+            "product": "",
+            "default_type": "product_reviews_only"
+          }
+        }
+      },
+      "block_order": [
+        "wisereviews_reviews_importer_product_reviews_bDY9Pw"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "17238265256bbdf969": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_9VjX8G": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_9VjX8G"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "171217233516cd7de6",
+    "17238265256bbdf969"
+  ]
+}

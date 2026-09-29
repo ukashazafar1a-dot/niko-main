@@ -1,0 +1,90 @@
+{% comment %} <style>
+  #neon-icons-customiser-app{
+      margin: 2rem 0;
+  }
+</style> {% endcomment %}
+
+{% if section.settings.shipping_text != blank %}
+  {% style %}
+    #delivery-text {
+        color: #008b10;
+        font-family: 'Goudy Old Style', serif;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        font-size: 20.5px;
+        text-align: left;
+        /* Standard-Schriftgröße, die du anpassen kannst */
+    }
+  {% endstyle %}
+{% endif %}
+
+<div id="neon-icons-customiser-app" class="hello" data-handle="{{ product.handle }}"></div>
+
+<!-- <div class="page-content">
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'tab' -%}
+              {% assign tab_id = block.id | append: product.id %}
+                {% capture tab_content %}
+                  {{ block.settings.content }}
+                  {{ block.settings.page.content }}
+                {% endcapture %}
+                {% unless tab_content == blank and block.settings.title == blank %}
+                  <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                    {%- render 'tab', id: tab_id, title: block.settings.title, content: tab_content -%}
+                  </div>
+                {% endunless %}
+            {%- when 'description' -%}
+              <div class="product-block{% if block.settings.is_tab %} product-block--tab{% endif %}" {{ block.shopify_attributes }}>
+                {%- assign id = block.id | append: product.id -%}
+                {%- render 'product-description', id: id, product: product, is_tab: block.settings.is_tab -%}
+              </div>
+            {%- when 'share' -%}
+              <div class="product-block" {{ block.shopify_attributes }}>
+                {%- render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product -%}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<script type="application/ld+json" id="calculator-data">
+  {
+    "tag": "custom-neon",
+    "productInfo": {
+        "title": "{{product.title}}",
+        "handle": "{{ product.handle }}",
+        "image": "https:{{product.featured_image | img_url: 'original'}}",
+        "weight": "{{ product.selected_or_first_available_variant.weight_in_unit }}",
+        "weight_unit":"{{ product.selected_or_first_available_variant.weight_unit }}",
+        "requires_shipping": {{ product.selected_or_first_available_variant.requires_shipping }}
+    },
+    "settings": {
+      "payment_icons": "{{ section.settings.delivery_icons | image_url }}",
+      "point_one":  "{{ section.settings.custom_pone }}",
+      "shipping_text": "{{ section.settings.shipping_text | strip_newlines }}",
+      "discount_enable": {{ section.settings.discount_enable }},
+      "discount": {{ section.settings.discount }},
+      "reviews_note_enable": {{ section.settings.reviews_note_enable }},
+      "reviews_note_text": "{{  section.settings.reviews_note_text }}",
+      "reviews_note_check": "{{ section.settings.reviews_note_check | image_url: width: 16 }}",
+      "reviews_note_img_1": "{{ section.settings.reviews_note_img_1 | image_url: width: 32 }}",
+      "reviews_note_img_2": "{{ section.settings.reviews_note_img_2 | image_url: width: 32 }}"
+    },
+    "content": {
+      "title_top_note": "{{ section.settings.title_top_note }}",
+      "title_bottom_text": "{{ section.settings.title_bottom_text | escape }}",
+      "size_chart_label": "{{ section.settings.size_chart_label }}",
+      "size_chart_img": {% if product.metafields.custom.sizechart %}"{{ product.metafields.custom.sizechart | image_url: width: 3840 }}"{% else %}null{% endif %},
+      "discount_note_label": "{{ section.settings.discount_note_label }}",
+      "discount_note_action_text": "{{ section.settings.discount_note_action_text }}",
+      "discount_note_img": {% if section.settings.discount_note_img %}"{{ section.settings.discount_note_img | image_url: width: 3840 }}"{% else %}null{% endif %}
+    }
+  }
+</script>

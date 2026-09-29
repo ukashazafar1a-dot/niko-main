@@ -1,0 +1,495 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_LX6aHy": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_baUyH7": {
+          "type": "custom",
+          "settings": {
+            "code": "<div style=\"margin-bottom: -25px;\">\n<p style=\"margin: 5px 0; text-align: left;\">✓ wiederverwendbar und einfach anzubringen</p>\n<p style=\"margin: 5px 0; text-align: left;\">✓ keine Nägel, Schrauben oder Werkzeuge nötig</p>\n<p style=\"margin: 5px 0; text-align: left;\">✓ rückstandsfrei entfernbar</p>\n<p style=\"margin: 5px 0; text-align: left;\">✓ ideal für glatte Oberflächen</p>\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "text": "Größenhilfe"
+          }
+        },
+        "quantity_selector_7P4zcn": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "custom_J8tYyY": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<style>\n        /* Der spezielle Text in Grün, Goudy Old Style Schriftart und fett */\n        #delivery-text {\n            color: #008b10;\n            font-family: 'Goudy Old Style', serif;\n            font-weight: bold;\n            margin: 0;\n            padding: 0;\n            font-size: 20.5px; \ntext-align:left;/* Standard-Schriftgröße, die du anpassen kannst */\n        }\n    </style>\n\n\n<p id=\"delivery-text\">\n    Lieferung bis zum <span id=\"delivery-date\"></span>\n</p>\n\n<script>\n    function updateDeliveryDate() {\n        const now = new Date();\n\n        // Zweiter Liefertermin: 7 Tage ab heute\n        const secondDeliveryDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 7);\n\n        // Aktualisieren des Textinhalts im span-Tag\n        document.getElementById('delivery-date').innerText = secondDeliveryDate.toLocaleDateString('de-DE', { day: 'numeric', month: 'long' });\n    }\n\n    // Berechnetes Datum sofort aktualisieren, wenn die Seite geladen wird\n    updateDeliveryDate();\n</script>"
+          }
+        },
+        "timer_8P3PaN": {
+          "type": "timer",
+          "settings": {
+            "code": "Bestelle innerhalb von <span data-delivery-timer=\"\"></span>nund erhalte deine Lieferung zwischen dem <span data-delivery-first=\"\"></span> und n<span data-delivery-second=\"\"></span>.",
+            "enable_new": true,
+            "html": "Kostenlose Lieferung bis zum <span data-delivery-third=\"\"></span>",
+            "textclr": "#008b10"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_XenrkN": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<ul class=\"inline-list payment-icons footer__section\">\n  {%- for type in shop.enabled_payment_types -%}\n    {%- unless type == 'unionPay' or type == 'americanExpress' -%}  <!-- Zahlungsmethoden, die ausgeblendet werden sollen -->\n      <li class=\"icon--payment\">\n        {{ type | payment_type_svg_tag }}\n      </li>\n    {%- endunless -%}\n  {%- endfor -%}\n</ul>"
+          }
+        },
+        "custom_NxfFXz": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<img src= \"https://cdn.shopify.com/s/files/1/0765/1301/8186/files/Icons_Standard.png?v=1729934704\"/>"
+          }
+        },
+        "icon_with_text_point_bpr_RYit6k": {
+          "type": "icon_with_text_point_bpr",
+          "settings": {
+            "point_texta": "14 Tage Rückgaberecht",
+            "icon_seta": "shopify://shop_images/image-removebg-preview_1.png",
+            "point_textb": "Kostenloser Versand",
+            "icon_setb": "shopify://shop_images/image__3_-removebg-preview.webp",
+            "point_textc": "Bezahle nach 30 Tagen",
+            "icon_setc": "shopify://shop_images/paypal-3384015_640.webp",
+            "point_textd": "Bezahle in 30 Tagen",
+            "icon_setd": "shopify://shop_images/png-transparent-klarna-pink-button-tech-companies-thumbnail-removebg-preview.png"
+          }
+        },
+        "text_EHFcGG": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab_nVN8Jf": {
+          "type": "tab",
+          "settings": {
+            "title": "Montage",
+            "content": "<p>Schaue dir <a href=\"/pages/montageanleitung\" target=\"_blank\" title=\"Montageanleitung\"><em><strong>hier</strong></em></a> an wie leicht du unsere Produkte mit Klebeknete anbringen kannst!</p><p>Bitte prüfe aber zuerst, ob das jeweilige Material für deine Oberfläche geeignet ist.</p>",
+            "page": ""
+          }
+        },
+        "tab_MxVU7H": {
+          "type": "tab",
+          "settings": {
+            "title": "Häufig gestellte Fragen",
+            "content": "<p><strong>Ist der Versand kostenlos?<br/></strong>Ab einem Warenwert von 50€ ist der Versand kostenlos.</p><p><strong>Wird Befestigungsmaterial mitgeliefert?<br/></strong>Du kannst <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\">Klebeknete</a> zum befestigen optional mitbestellen, sie wird jedoch nur geliefert, wenn sie tatsächlich bestellt wurde.</p><p><strong>Kann ich die einzelnen Wörter so anordnen, wie ich es möchte?<br/></strong>Ja, die einzelnen Wörter sind nicht miteinander verbunden und können nach Belieben angeordnet werden.</p><p><strong>Wie lange dauert der Versand?<br/></strong>Das Paket wird in der Regel innerhalb von 3-6 Werktage versendet.</p><p><strong>Woher kommt meine Bestellung?<br/></strong>Deine Bestellung wird in Burbach in Nordrhein-Westfalen angefertigt.</p><p><strong>Welche Zahlungsmethoden bietet ihr an?<br/></strong>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay und Sofortüberweisung als Zahlungsmethoden an.</p><p><strong>Hast du noch weitere Fragen?<br/></strong>Kontaktiere uns gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "quantity_popup_6EwFUX": {
+          "type": "quantity_popup",
+          "disabled": true,
+          "settings": {
+            "title": "Mengenrabatt ab 2 Artikel:",
+            "action_text": "<span style=\"text-decoration:underline\">Erfahre mehr</span>",
+            "image": "shopify://shop_images/sweetdreams.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_LX6aHy",
+        "separator",
+        "custom_baUyH7",
+        "variant_picker",
+        "quantity_selector_7P4zcn",
+        "price",
+        "custom_J8tYyY",
+        "timer_8P3PaN",
+        "buy_buttons",
+        "custom_XenrkN",
+        "custom_NxfFXz",
+        "icon_with_text_point_bpr_RYit6k",
+        "text_EHFcGG",
+        "inventory_status",
+        "description",
+        "tab_nVN8Jf",
+        "tab_MxVU7H",
+        "share",
+        "quantity_popup_6EwFUX"
+      ],
+      "custom_css": [
+        ".point_manage_cta_pr img {width: 43px;}",
+        ".point_manage_cta_pr span {font-weight: 500; font-size: 14px;}",
+        ".cta_point_bpr {flex-direction: column; gap: 0; padding-top: 1rem;}"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "reviews_note_enable": true,
+        "reviews_note_text": "Anna, Tanja und 9500 andere sind begeistert.",
+        "reviews_note_check": "shopify://shop_images/Lisa.png",
+        "reviews_note_img_1": "shopify://shop_images/2148354939-min.jpg",
+        "reviews_note_img_2": "shopify://shop_images/2681-min.jpg"
+      }
+    },
+    "rich_text_ijpVnG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fJxPiz": {
+          "type": "heading",
+          "settings": {
+            "title": "Erfahrungen die Überzeugen"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fJxPiz"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "17316571134daa2ef0": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_b3Fj8h": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 2,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_b3Fj8h"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "rich_text_UhryfM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BMMCqy": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Warum unser 3D–Schriftzug perfekt für dein Zuhause ist!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BMMCqy"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "slideshow_ghdfVE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QzRMxF": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Desktop_standard.jpg",
+            "image_mobile": "shopify://shop_images/Standard_mobile.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QzRMxF"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_cqgJjy": {
+      "type": "text-and-image",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/2_b56dd6c3-6e45-4bf6-bff8-2d738e41b5b5.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Qualität und Nachhaltigkeit",
+        "text": "<p>Unsere Schriftzüge werden aus <strong>hochwertigem, recycelbarem Acrylglas </strong>gefertigt. Dank präziser Lasertechnologie sind die Kanten makellos, und das Material bleibt lange farbintensiv. Zusätzlich ist das unser Material UV–  und wasserbeständig, sodass es auch im Außenbereich seine Farbe und Form behält. Qualität, die nicht nur schön aussieht, sondern auch umweltfreundlich ist.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_7aNr33": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/4_b7cb1ffc-6477-42ab-a4d3-a7c4071a80b4.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Einfache Montage",
+        "text": "<p>Unsere Schriftzüge lassen sich <strong>mühelos anbringen</strong> – zum Beispiel mit Klebeknete. So kannst du sie flexibel und <strong>ohne Werkzeug</strong> an deinen Wänden befestigen und bei Bedarf rückstandslos wieder entfernen. Ideal für eine schnelle und unkomplizierte Dekoration!</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_jUAnrc": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/3_c43ee990-008a-44c3-9b8d-8f27dd08ccbe.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Zeitloses Design",
+        "text": "<p>Dank des <strong>schlichten und modernen Designs </strong>fügt sich unser Schriftzug nahtlos in jeden Raum ein. Ob klassisch, modern oder minimalistisch – diese Dekoration bleibt stilvoll und aktuell, egal wie sich dein Einrichtungsstil verändert.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [],
+      "settings": {
+        "product_recommendations_heading": "Entdecke weitere Designs, die deinen Stil perfekt ergänzen!",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "rich_text_Hdi8gH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VGT9wN": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Euer Feedback</p>"
+          }
+        },
+        "heading_EdtVUp": {
+          "type": "heading",
+          "settings": {
+            "title": "Über 7000 Kunden besitzen ihr Lieblingswerk"
+          }
+        }
+      },
+      "block_order": [
+        "text_VGT9wN",
+        "heading_EdtVUp"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "17315991383c672aef": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_eidjQU": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 8,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_eidjQU"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "custom_css": [
+        ".section-header {display: flex; flex-direction: column; /* Stapelt die Kinder vertikal */ align-items: center; /* Zentriert die Kinder horizontal */ text-align: center; /* Zentriert den Text innerhalb der Kinder */}",
+        ".section-header__link {margin-top: 15px; /* Fügt einen kleinen Abstand oben hinzu */ white-space: nowrap; /* Verhindert, dass der Text im Link umbricht */}"
+      ],
+      "settings": {
+        "recent_count": 8
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    },
+    "1723826404e573d8b7": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_MeEq43": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_MeEq43"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_ijpVnG",
+    "17316571134daa2ef0",
+    "rich_text_UhryfM",
+    "slideshow_ghdfVE",
+    "text_and_image_cqgJjy",
+    "text_and_image_7aNr33",
+    "text_and_image_jUAnrc",
+    "sub",
+    "product-recommendations",
+    "rich_text_Hdi8gH",
+    "17315991383c672aef",
+    "recently-viewed",
+    "collection-return",
+    "1723826404e573d8b7"
+  ]
+}

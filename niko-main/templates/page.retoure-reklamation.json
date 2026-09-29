@@ -1,0 +1,261 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_8jHPi8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DxFfcc": {
+          "type": "heading",
+          "settings": {
+            "title": "Retoure & Reklamation"
+          }
+        },
+        "text_QmJpLm": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Manchmal trifft man eine Entscheidung und fragt sich später: Warum habe ich mir das denn bestellt? Bei Dein Lieblingswerk sind wir uns sicher, dass du unsere Acrylglasschriftzüge und Wandbilder lieben wirst, aber falls du doch einmal etwas zurückgeben möchtest, machen wir es dir ganz leicht. Für nicht personalisierte Produkte kannst du einfach das Rücksendeformular ausfüllen und uns deine Bestellung ganz unkompliziert zurückschicken. Sollte dein Produkt beim Transport beschädigt worden sein, melde es uns über unser Kontaktformular und wir sorgen dafür, dass du schnellstmöglich einen Ersatz erhältst.</p><p><em>Hinweis: Personalisierte Produkte können nicht zurückgenommen werden, da sie individuell für dich angefertigt wurden und daher nicht weiterverkauft werden können.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DxFfcc",
+        "text_QmJpLm"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1724180165dd17ed88": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_rTQdxy": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "k4YDNZg6WX39JvDtTn70EQ",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 4,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 18,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_rTQdxy"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "rich_text_iqdtpT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bGwfUj": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_jVzRcq": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Nachdem dein Eintrag vollständig bei uns eingegangen ist, melden wir uns schnellstmöglich bei dir und finden gemeinsam eine Lösung für das Problem.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bGwfUj",
+        "text_jVzRcq"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_QCjkXX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_bVbFr4": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2>Wie funktioniert die Rücksendung?<br/></h2><p></p><ol><li>Du füllst oben das Rücksendungsformular aus, gibst deinen Namen an, deine Bestellnummer und so weiter. Je mehr du im Formular angibst, desto schneller und unkomplizierter ist die Rücksendung für dich und natürlich auch für uns.</li><li>Wir kümmern uns umgehend um dein Anliegen und melden uns per E-Mail bei dir. </li><li>Du verpackst das Paket am besten in der Originalverpackung und bringst es zur Post, um es an uns zurück zu senden.</li><li>Sobald das Paket bei uns eingetroffen ist, erstatten wir den Rechnungsbetrag schnellstmöglich.</li></ol>"
+          }
+        },
+        "text_8LfP79": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2>Wie lange hab ich Zeit etwas zurückzuschicken?<br/></h2><p>Du hast die Möglichkeit nicht personalisierte Produkte bis zu 14 Tag nach erhalt des Produktes an uns zurückzuschicken. Personalisierte Produkte können nicht zurückgenommen werden, da sie individuell für dich angefertigt wurden und daher nicht weiterverkauft werden können.</p>"
+          }
+        },
+        "text_7QbXM9": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2>Mein Artikel ist kaputt<br/></h2><p>Wenn unser Produkt defekt bei dir ankam melde dich bitte direkt bei uns und übersende uns ein Bild von dem Defekt! Sobald wir deine Reklamation geprüft haben, erhältst du eine Nachricht von uns und wir fertigen die Ware erneut für dich an. Die beschädigte Ware musst du nicht an uns zurück senden.</p><p><em>Bitte melde dich innerhalb von 10 Tagen nach Erhalt der Ware, falls diese defekt ist. So können wir sicherstellen, dass der Schaden während des Transports oder der Produktion entstanden ist und dir schnellstmöglich Ersatz anbieten.</em></p>"
+          }
+        },
+        "text_LhgmFN": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2>Wann und wie erhalte ich mein Geld zurück?<br/></h2><p>Die Rückzahlung erfolgt normalerweise über die ursprünglich verwendete Zahlungsart. In der Regel veranlassen wir die Rückerstattung innerhalb von 1-2 Werktagen nach Erhalt der Rücksendung. Abhängig von der Zahlungsart wird der Betrag dann entweder sofort oder nach kurzer Zeit gutgeschrieben.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_bVbFr4",
+        "text_8LfP79",
+        "text_7QbXM9",
+        "text_LhgmFN"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "faq_GwXcNX": {
+      "type": "faq",
+      "blocks": {
+        "question_iGyRic": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die einzelnen Wörter so anordnen, wie ich es möchte?",
+            "text": "<p>Ja, die einzelnen Wörter sind nicht miteinander verbunden und können nach Belieben angeordnet werden.</p>"
+          }
+        },
+        "question_3wGFNm": {
+          "type": "question",
+          "settings": {
+            "title": "Wann erhalte ich meine Bestellung?",
+            "text": "<p>Das Paket wird in der Regel innerhalb von 3-6 Werktage versendet.</p>"
+          }
+        },
+        "question_WzmVaH": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange kann ich mich nach meiner Bestellung umentscheiden?",
+            "text": "<p>Wir akzeptieren Stornierungen innerhalb von 24 Stunden nach Bestellungseingang.</p>"
+          }
+        },
+        "question_iATDCH": {
+          "type": "question",
+          "settings": {
+            "title": "Woher kommt meine Bestellung?",
+            "text": "<p>Deine Bestellung wird in Burbach in Nordrhein-Westfalen angefertigt.</p>"
+          }
+        },
+        "question_KTXBcY": {
+          "type": "question",
+          "settings": {
+            "title": "Welche Zahlungsmethoden bietet ihr an?",
+            "text": "<p>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay und Sofortüberweisung als Zahlungsmethoden an.</p>"
+          }
+        },
+        "question_74FmTL": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich auch mehrere Schriftarten in einen individuellen Schriftzug kombinieren?",
+            "text": "<p>Ja das ist kein Problem! Kontaktiere uns dafür gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>"
+          }
+        },
+        "question_CAYPW4": {
+          "type": "question",
+          "settings": {
+            "title": "Besteht die Möglichkeit ein Logo oder ein individuelles Wandbild zu erstellen?",
+            "text": "<p>Ja das ist in den meisten Fällen möglich, wir müssen jedoch erst die Herstellbarkeit überprüfen. Um ein Logo/individuelles Wandbild zu erstellen, müsstest du uns die Datei im svg-, dfx- oder ai-Dateiformat zur Verfügung stellen. Falls dieses Format nicht vorhanden ist, können wir es auch gegen einen Aufpreis per Hand nachzeichnen! Kontaktiere uns einfach über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_iGyRic",
+        "question_3wGFNm",
+        "question_WzmVaH",
+        "question_iATDCH",
+        "question_KTXBcY",
+        "question_74FmTL",
+        "question_CAYPW4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Häufig gestellte Fragen"
+      }
+    },
+    "1723735984a8bd7394": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1723754656146dd628": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_6yMMjp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_8jHPi8",
+    "1724180165dd17ed88",
+    "rich_text_iqdtpT",
+    "rich_text_QCjkXX",
+    "faq_GwXcNX",
+    "1723735984a8bd7394",
+    "1723754656146dd628"
+  ]
+}

@@ -1,0 +1,29 @@
+<style>
+  .cc-annc{
+    padding:10px 12px;
+    border-radius:4px;
+    --color: {{block.settings.textClr}};
+    color: var(--color);
+    {% if block.settings.enableBorder %}
+    border: 1px solid {{block.settings.borderClr}};
+      {% endif %}
+    margin-bottom:10px;
+  }
+  .cc-annc p{
+    margin:0;
+  }
+</style>
+{% liquid
+  assign annoucement = ''
+  assign collections = product.collections
+  for collection in collections
+    if collection.metafields.custom.annoucement != blank
+      assign annoucement = collection.metafields.custom.annoucement
+    endif
+  endfor
+%}
+{% if annoucement != blank %}
+  <div class="cc-annc" {{ block.shopify_attributes }}>
+    {{ annoucement | metafield_tag }}
+  </div>
+{% endif %}

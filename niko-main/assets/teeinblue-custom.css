@@ -1,0 +1,120 @@
+.tee-radio .tee-radio-label {
+    letter-spacing: 0 !important;
+}
+.teeinblue-enabled .custom-delivery-date__wrapper.product-block{
+  top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.tee-form-inputs{
+  margin-bottom: 2px !important;
+}
+.tee-radio.active::before {
+    content: " ";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: #000;
+    top: -11px;
+    right: -15px !important;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-image: url(https://cdn.shopify.com/s/files/1/0765/1301/8186/files/hd-white-tick-mark-icon-transparent-background-701751695051247opp5aqwrto-removebg-preview.png?v=1739264316);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+.priceDifference{
+  color: #008b10
+}
+.tee-price--saving{
+    background-color: #008b10 !important;
+    color: #fff !important;
+}
+span.tee-price--compare-wrapper.tee-price--regular-wrapper{
+  margin-right: 6px
+}
+.tee-price-dis{
+  border-block-end: 1px solid #e6e6e6;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+/* 02172025 */
+
+.tee-variants .tee-option__title {
+    text-transform: none !important;
+}
+#teeFormInputs {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.tee-price--saving-wrapper .tee-price--saving {
+    border-radius: 0;
+    position: relative;
+    margin-left: 10px;
+}
+.tee-price--saving-wrapper .tee-price--saving:before {
+    border-color: #008b10;
+    border-style: solid;
+    border-width: 4px 11px 9px 0;
+    content: "";
+    left: -7px;
+    position: absolute;
+    top: 3px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.tee-field__heading span{
+  font-size: 14px !important
+}
+button#teeAtcButton{
+  color: #000000 !important;
+  background-color: #ffc84c !important;
+  padding: 28px !important;
+      font-size: 20px !important;
+    font-weight: 800 !important;
+}
+span.money.theme-money.price.tee-price--compare{
+  color: #646464 !important;
+  font-size: 16px !important
+}
+span.money.theme-money.price.tee-price--current{
+ color: #FF0000 !important;
+  font-size: 16px !important
+
+}
+span.money.theme-money.price.tee-price--compare{
+  margin-left: 0 !important
+}
+.tee-price--saving-text{
+  display: none 
+}
+.teeinblue-enabled .cta_point_bpr{
+  padding: 0 !important
+}
+.tee-form-actions.tee-block{
+  margin-bottom: 0 !important
+}
+#teeFormActions{
+  padding-bottom: 0 !important
+}
+/* 02172025 */
+
+/* Jason - 06202025 */
+.cart__image .tee-cart-thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.tee-form-responses .tee-success {
+  display: none !important;
+}
+/* Jason - 06202025 */

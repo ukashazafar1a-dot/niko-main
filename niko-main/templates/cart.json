@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "custom_css": [
+        ".cart-timer-wrap {display: none;}"
+      ],
+      "settings": {
+        "annc_clr": "#d7f4d1",
+        "annc_text_clr": "#000000",
+        "code": "<strong>Gute Wahl!</strong> Deine Lieblingswerke sind bis zum <strong><span data-delivery-third=\"\"></span> </strong> bei dir.",
+        "cgp_clr": "#d7f4d1",
+        "cgp_text_clr": "#000000",
+        "cgp_border_clr": "#5bae50"
+      }
+    },
+    "17326332237a0d1d9f": {
+      "type": "apps",
+      "blocks": {
+        "in_cart_upsell_cart_app_block_LGgktj": {
+          "type": "shopify://apps/icu-in-cart-upsell-cross-sell/blocks/cart_app_block/6a252f23-8726-4893-8b3b-1ae15957efc3",
+          "settings": {
+            "icu-cart-selector": ".cart__items",
+            "icu-cart-action": "after",
+            "icu-cart-refresh-code": "",
+            "icu-cart-show-currency-code": false
+          }
+        }
+      },
+      "block_order": [
+        "in_cart_upsell_cart_app_block_LGgktj"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {span.product-title {font-size: 13px !important; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.grid-product__title {font-size: 13px; line-height: 18px; font-weight: 500; }}"
+      ],
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bestseller",
+        "home_featured_products": "schriftzuge",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1723666835689c6547": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_f9PtVP": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UjbApa\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_f9PtVP"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1723667012c0a1c179": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17326332237a0d1d9f",
+    "recently-viewed",
+    "featured-collection",
+    "1723666835689c6547",
+    "1723667012c0a1c179"
+  ]
+}

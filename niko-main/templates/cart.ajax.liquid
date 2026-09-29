@@ -1,0 +1,100 @@
+{% comment %}
+  JS-load cart markup without bloat of a full layout.
+
+  This is used in both the cart drawer and cart page.
+  When a quantity is changed, this file is scraped and data-products
+    is fully replaced to account for possible cart discounts changing
+
+  The cart-wide discount div also replaces what is originally in the cart
+    as it can change anytime a cart-item changes
+{% endcomment %}
+{% layout none %}
+
+{% assign totalsavings = 0 %}
+{% for item in cart.items %}
+  {% assign is_neon = false %}
+  {% for tag in item.product.tags -%}
+    {% if tag == 'custom-neon' -%}
+      {% assign is_neon = true %}
+    {%- endif -%}
+  {%- endfor %}
+  
+  {% if is_neon and settings.discount_code > 0 %}
+      {% assign discount_percentage = settings.discount_code %}
+      {% assign discount_multiplier = discount_percentage | divided_by: 100.0 %}
+      {% assign increase_amount = item.original_price | times: discount_multiplier %}
+      {% assign increase_amount = increase_amount | plus: item.original_price %}
+      {% assign increase_amount = increase_amount | times: item.quantity %}
+      {% assign totalsavings = totalsavings | plus: increase_amount %}
+  {% else %}
+      {% unless item.original_price == item.variant.compare_at_price %}
+        {% assign increase_amount = item.variant.compare_at_price | minus: item.original_price %}
+        {% assign increase_amount = increase_amount | plus: item.original_price %}
+        {% assign increase_amount = increase_amount | times: item.quantity %}
+        {% assign totalsavings = totalsavings | plus: increase_amount %}
+      {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<div
+  class="cart__items"
+  data-count="{{ cart.item_count }}"
+  data-cart-subtotal="{{ cart.total_price }}"
+  data-cart-compare-at-price = "{{ totalsavings | round }}"
+>
+  {% for item in cart.items %}
+    {%- render 'cart-item', product: item, sizes: '100px' -%}
+  {% endfor %}
+</div>
+<div class="cart__discounts cart__item-sub cart__item-row{% if cart.cart_level_discount_applications == blank %} hide{% endif %}">
+  <div>{{ 'cart.general.discounts' | t }}</div>
+  <div>
+    {% for cart_discount in cart.cart_level_discount_applications %}
+      <div class="cart__discount">{{ cart_discount.title }} (-{{ cart_discount.total_allocated_amount | money }})</div>
+    {% endfor %}
+  </div>
+</div>
+<div data-cart-amount>
+  <div class="cart__item-sub cart__item-row">
+    <div>{{ 'cart.general.subtotal' | t }}</div>
+    <div class="cart--amount" data-subtotal>
+      {% if cart.original_total_price != cart.total_price %}
+        <s>{{ cart.original_total_price | money }}</s><span class="cut-red">{{ cart.total_price | money }}</span>
+      {% else %}
+        <span>{{ cart.total_price | money }}</span>
+      {% endif %}
+    </div>
+  </div>
+  {% if cart.total_discount > 0 %}
+    <div class="cart__item-sub cart__item-now">
+      <div>Du sparst</div>
+      <div>{{ cart.total_discount | money }}</div>
+    </div>
+  {% endif %}
+</div>
+{% liquid
+  assign totalPrice = cart.total_price
+  assign freeShippingThreshold = 5000
+  assign remainingAmount = freeShippingThreshold - totalPrice
+%}
+
+{% if totalPrice >= freeShippingThreshold %}
+  <div class="cart_top_wrapper bottom_progress" id="cartTopWrapper">
+    <div class="cart-top-bar-inner">
+      <label for="file" id="progressLabel">
+        <p>Glückwunsch! Du erhältst kostenlosen Versand!</p>
+      </label>
+      <progress id="file" value="5000" max="5000"></progress>
+    </div>
+  </div>
+{% else %}
+  <div class="cart_top_wrapper top_progress" id="cartTopWrapper">
+    <div class="cart-top-bar-inner">
+      <label for="file" id="progressLabel">
+        <p>Super! Nur noch {{ remainingAmount / 100 }} Euro für den kostenlosen Versand!</p>
+      </label>
+      <progress id="file" value="{{ totalPrice }}" max="5000"></progress>
+    </div>
+  </div>
+{% endif %}
+{% include 'cart-annoucement' %}

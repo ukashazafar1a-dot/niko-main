@@ -1,0 +1,410 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_f78iTF": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": true,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "hulk_form_builder_form_block_ajyBLp": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "FkX5OX6h4JDipPvgvOy1TQ",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        },
+        "timer_iciCki": {
+          "type": "timer",
+          "settings": {
+            "code": "Bestelle innerhalb von <span data-delivery-timer=\"\"></span>\nund erhalte deine Lieferung zwischen dem <span data-delivery-first=\"\"></span> und \n<span data-delivery-second=\"\"></span>.",
+            "enable_new": true,
+            "html": "Kostenlose Lieferung bis zum <span data-delivery-third=\"\"></span>",
+            "textclr": "#008b10"
+          }
+        },
+        "custom_zrqgKy": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<style>\n        /* Der spezielle Text in Grün, Goudy Old Style Schriftart und fett */\n        #delivery-text {\n            color: #008b10;\n            font-family: 'Goudy Old Style', serif;\n            font-weight: bold;\n            margin: 0;\n            padding: 0;\n            font-size: 20.5px; \n            text-align: left; /* Standard-Schriftgröße, die du anpassen kannst */\n        }\n\n        /* Zusätzlicher Stil, um den Abstand des Blocks anzupassen */\n        #delivery-container {\n            margin-top: -5px; /* Abstand oberhalb des Blocks */\n            margin-bottom: -15px; /* Abstand unterhalb des Blocks */\n        }\n</style>\n\n<div id=\"delivery-container\">\n    <p id=\"delivery-text\">\n        Lieferung bis zum <span id=\"delivery-date\"></span>\n    </p>\n</div>\n\n<script>\n    function updateDeliveryDate() {\n        const now = new Date();\n\n        // Zweiter Liefertermin: 7 Tage ab heute\n        const secondDeliveryDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 7);\n\n        // Aktualisieren des Textinhalts im span-Tag\n        document.getElementById('delivery-date').innerText = secondDeliveryDate.toLocaleDateString('de-DE', { day: 'numeric', month: 'long' });\n    }\n\n    // Berechnetes Datum sofort aktualisieren, wenn die Seite geladen wird\n    updateDeliveryDate();\n</script>"
+          }
+        },
+        "custom_J8tYyY": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Lieferzeit Berechnung</title>\n    <style>\n        /* Der spezielle Text in Grün, Goudy Old Style Schriftart und fett */\n        #delivery-text {\n            color: #008b10;\n            font-family: 'Goudy Old Style', serif;\n            font-weight: bold;\n            margin: 0;\n            padding: 0;\n            font-size: 20.5px; /* Standard-Schriftgröße, die du anpassen kannst */\n        }\n    </style>\n</head>\n<body>\n\n<p id=\"delivery-text\">\n    Lieferung bis zum <span id=\"delivery-date\"></span>\n</p>\n\n<script>\n    function updateDeliveryDate() {\n        const now = new Date();\n\n        // Zweiter Liefertermin: 7 Tage ab heute\n        const secondDeliveryDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 7);\n\n        // Aktualisieren des Textinhalts im span-Tag\n        document.getElementById('delivery-date').innerText = secondDeliveryDate.toLocaleDateString('de-DE', { day: 'numeric', month: 'long' });\n    }\n\n    // Berechnetes Datum sofort aktualisieren, wenn die Seite geladen wird\n    updateDeliveryDate();\n</script>\n\n</body>\n</html>"
+          }
+        },
+        "custom_NxfFXz": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<img src= \"https://cdn.shopify.com/s/files/1/0765/1301/8186/files/Icons_personalisiert.png?v=1729934917\">"
+          }
+        },
+        "icon_with_text_point_bpr_3rEJPg": {
+          "type": "icon_with_text_point_bpr",
+          "settings": {
+            "point_texta": "Personalisierung nach Wunsch",
+            "icon_seta": "shopify://shop_images/pencil-icon-illustration-stationery-writing-pencil-silhouette-free-vector-removebg-preview.png",
+            "point_textb": "Kostenloser Versand",
+            "icon_setb": "shopify://shop_images/image__3_-removebg-preview.webp",
+            "point_textc": "Bezahle nach 30 Tagen",
+            "icon_setc": "shopify://shop_images/paypal-3384015_640.webp",
+            "point_textd": "Bezahle in 30 Tagen",
+            "icon_setd": "shopify://shop_images/png-transparent-klarna-pink-button-tech-companies-thumbnail-removebg-preview.png"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "quantity_selector_TGGyPV": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "text": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Material",
+            "content": "<p>Unsere 3D-Logos werden aus hochwertigem Acrylglas oder Holz gefertigt und sind standardmäßig in 3 mm Stärke erhältlich, während Acrylglas Schwarz matt sowie Acrylglas Weiß und Schwarz hochglänzend zusätzlich auch in 5 mm Stärke verfügbar sind.  – mit präzisen Konturen, edler Oberfläche und beidseitiger Schutzfolie für einen sicheren Versand.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "tab_xByEt6": {
+          "type": "tab",
+          "settings": {
+            "title": "Farbe",
+            "content": "<p>Unsere 3D‑Logos werden präzise aus hochwertigem Acrylglas oder Holz gefertigt. Du kannst aus den oben aufgeführten Farben und Materialien wählen. Auf Wunsch lassen sich auch mehrere Farben oder Materialien miteinander kombinieren, um ein individuelles und besonders wirkungsvolles Design zu erstellen. Andere Farben oder Materialien bieten wir derzeit nicht an.<br/></p>",
+            "page": ""
+          }
+        },
+        "tab_nVN8Jf": {
+          "type": "tab",
+          "settings": {
+            "title": "Montage",
+            "content": "<p>Im Innenbereich ist das Logo ganz einfach mit <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\"><strong>Klebeknete</strong></a> oder Montagekleber anzubringen. </p><p>Bitte prüfe aber zuerst, ob das jeweilige Variante für deine Oberfläche geeignet ist.</p><p>Beides ist jedoch <strong>nicht </strong>im Lieferumfang. Die <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\"><strong>Klebeknete</strong></a> kann optional bei uns bestellt werden.</p><p>Schaue dir <a href=\"/pages/montageanleitung\" target=\"_blank\" title=\"Montageanleitung\"><em><strong>hier</strong></em></a> an wie leicht es geht!</p><p>Du möchetest dein Logo im Außenbereich montieren? Sag uns bescheid und wir arbeiten dir Löcher zum aufhängen mit ein!</p>",
+            "page": ""
+          }
+        },
+        "tab_QahYbJ": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Versand",
+            "content": "<p>Die Lieferung erfolgt bei einem Bestellwert über 50€ <strong>versandkostenfrei</strong>. Bei einem Bestellwert unter 50€ fällt eine Versandpauschale von 4,95€ an. </p>",
+            "page": ""
+          }
+        },
+        "tab_gD6pcF": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "STORNIERUNGEN",
+            "content": "<p>Wir akzeptieren Stornierungen innerhalb von 24 Stunden nach Bestellungseingang.</p>",
+            "page": ""
+          }
+        },
+        "tab_MxVU7H": {
+          "type": "tab",
+          "settings": {
+            "title": "Häufig gestellte Fragen",
+            "content": "<p><strong>Ist der Versand kostenlos?<br/></strong>Ja, in Deutschland ist der Versand kostenlos!</p><p><strong>Welche Größe ist für mich am Besten?<br/></strong>Wir helfen dir gerne die perfekte Größe für dich zu finden. Am besten ist es, wenn du es dafür deine Wandmaße übermittelst und wir das Logo daran anpassen.</p><p><strong>Wird Befestigungsmaterial mitgeliefert?<br/></strong>Nein, aber du kannst <a href=\"/products/tesa®-tack-klebeknete-80-stk\" title=\"tesa® TACK - Klebeknete 80 Stk.\">Klebeknete</a> zum befestigen optional mitbestellen.</p><p><strong>Bietet ihr die Logos auch mit Beleuchtung an?<br/></strong>Nein, aktuell bieten wir keine Logos mit Beleuchtung an.</p><p><strong>Wovon hängt der Preis der Logos ab?<br/></strong>Der Preis hängt von der Größe und dem Material des Logos ab. Je größer, desto teurer.</p><p><strong>Wie lange dauert der Versand?<br/></strong>Das Paket wird in der Regel innerhalb von 2-5 Werktagen versendet.</p><p><strong>Woher kommt meine Bestellung?<br/></strong>Deine Bestellung wird in Deutschland angefertigt.</p><p><strong>Welche Zahlungsmethoden bietet ihr an?<br/></strong>Wir bieten PayPal, Klarna, Kreditkarte, Apple Pay, Sofortüberweisung und <strong>Kauf auf Rechnung</strong> als Zahlungsmethoden an.</p><p><strong>Hast du noch weitere Fragen?<br/></strong>Kontaktiere uns gerne über den Chat der Webseite oder per E-Mail: kontakt@dein-lieblingswerk.de</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "contact_RcCr9P": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Bro",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_f78iTF",
+        "separator",
+        "description",
+        "hulk_form_builder_form_block_ajyBLp",
+        "timer_iciCki",
+        "custom_zrqgKy",
+        "custom_J8tYyY",
+        "custom_NxfFXz",
+        "icon_with_text_point_bpr_3rEJPg",
+        "inventory_status",
+        "quantity_selector_TGGyPV",
+        "variant_picker",
+        "price",
+        "buy_buttons",
+        "tab",
+        "tab_xByEt6",
+        "tab_nVN8Jf",
+        "tab_QahYbJ",
+        "tab_gD6pcF",
+        "tab_MxVU7H",
+        "share",
+        "contact_RcCr9P"
+      ],
+      "custom_css": [
+        ".point_manage_cta_pr img {width: 43px;}",
+        ".point_manage_cta_pr span {font-weight: 500; font-size: 14px;}",
+        ".cta_point_bpr {flex-direction: column; gap: 0;}"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "reviews_note_enable": false,
+        "reviews_note_text": "Anna, Tanja und 5000 weitere lieben ihr Lieblingswerk"
+      }
+    },
+    "176952571724838c4c": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "contact_form_Dpqfth": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "product_recommendations_heading": "Das könnte dir auch gefallen",
+        "related_count": 3,
+        "products_per_row": 2
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "custom_css": [
+        ".section-header {display: flex; flex-direction: column; /* Stapelt die Kinder vertikal */ align-items: center; /* Zentriert die Kinder horizontal */ text-align: center; /* Zentriert den Text innerhalb der Kinder */}",
+        ".section-header__link {margin-top: 15px; /* Fügt einen kleinen Abstand oben hinzu */ white-space: nowrap; /* Verhindert, dass der Text im Link umbricht */}"
+      ],
+      "settings": {
+        "recent_count": 8
+      }
+    },
+    "text_and_image_f6gtKz": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/freepik__erstelle-mir-weitere-beauty-logos-im-minimalistisc__76749_ae14d84a-bd02-4dcc-93f0-e70457cbba2c.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Qualität und Nachhaltigkeit",
+        "text": "<p>Unsere <strong>3D-Logos aus Acrylglas und Holz</strong> werden aus hochwertigen Materialien gefertigt und überzeugen durch eine edle, langlebige Optik. Dank präziser Lasertechnologie sind die Kanten makellos verarbeitet und sorgen für eine exakte Formgebung. Das Acrylglas ist <strong>UV- und wasserbeständig</strong> und behält seine Farbintensität auch im Außenbereich, während das Holz mit seiner natürlichen Struktur für eine warme, hochwertige Ausstrahlung sorgt. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_VEhV4D": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Personalisierbarer_3D_Schriftzug_14.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Einfache Montage",
+        "text": "<p>Unsere Logos lassen sich schnell und unkompliziert anbringen – <strong>ganz ohne Werkzeug</strong>. Auf der Rückseite des Logos wird die Klebeknete angebracht, sodass du das Logo anschließend einfach an die gewünschte Stelle an der Wand drücken kannst. Die <strong>Montage </strong>ist <strong>flexibel, sauber</strong> und <strong>rückstandslos entfernbar</strong>. Ideal für eine schnelle Installation und perfekt, wenn du dein Logo bei Bedarf problemlos neu positionieren möchtest.<br/><br/><br/></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_XYpU8C": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/freepik__erstelle-mir-weitere-beauty-logos-aus-3-mm-dickem-__76741.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Zeitloses Design",
+        "text": "<p>Durch sein klares, modernes Design wird unser <strong>Logo</strong> zum echten Hingucker in jedem Raum. Es spiegelt deine <strong>Marke</strong> perfekt wider und verleiht deinen Räumen eine professionelle, stimmige Ausstrahlung. Ob klassisch, modern oder minimalistisch – es setzt stilvolle Akzente und bleibt zeitlos, selbst wenn sich dein Einrichtungsstil verändert.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    },
+    "173166284007debfc9": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_ATnzLK": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_ATnzLK"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "176952571724838c4c",
+    "contact_form_Dpqfth",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "text_and_image_f6gtKz",
+    "text_and_image_VEhV4D",
+    "text_and_image_XYpU8C",
+    "collection-return",
+    "173166284007debfc9"
+  ]
+}

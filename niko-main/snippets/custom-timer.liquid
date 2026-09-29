@@ -1,0 +1,32 @@
+<style>
+  .custom-delivery-date__wrapper {
+    margin-bottom:5px;
+  }
+  .custom-delivery-date{
+    display: flex;
+    gap: 0.5rem;
+    align-items: start;
+    justify-content:flex-start;
+    padding: 0;
+    color: {{block.settings.textclr}};
+    width:100%;
+    font-weight: 600;
+  }
+  .custom-delivery-date__wrapper p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+</style>
+
+<div class="custom-delivery-date__wrapper product-block" {{ block.shopify_attributes }} data-timer-main>
+  <div class="custom-delivery-date">
+    <p>
+      {% if block.settings.enable_new %}
+        {{ block.settings.html }}
+      {% else %}
+        {{ block.settings.code }}
+      {% endif %}
+    </p>
+  </div>
+</div>
+<script src="{{ 'custom-timer.js' | asset_url }}"></script>

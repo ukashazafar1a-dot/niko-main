@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Kostenloser Versand 🚛📦!",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "announcement_XgxarQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "♥ 11500+ zufriedene Kunden",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "announcement_yjYGNY": {
+          "type": "announcement",
+          "settings": {
+            "text": "★★★★★ 4,9/5",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement_XgxarQ",
+        "announcement_yjYGNY"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo.png",
+            "desktop_logo_width": 100,
+            "mobile_logo_width": 60
+          }
+        }
+      },
+      "block_order": [
+        "header-0"
+      ],
+      "custom_css": [
+        ".site-header__logo a {width: 70px;}"
+      ],
+      "settings": {
+        "main_menu_link_list": "impulse-test-menu",
+        "hover_menu": true,
+        "mega_menu_images": true,
+        "main_menu_alignment": "center",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "",
+        "toolbar_social": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

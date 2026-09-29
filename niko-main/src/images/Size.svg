@@ -1,0 +1,24 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="35" cy="35" r="34.5" stroke="#DDDDDD"></circle>
+    <line x1="16.0143" y1="42.5095" x2="36.0134" y2="42.7012" stroke="var(--primary-colour)"></line>
+    <line x1="36.5278" y1="41.2061" x2="36.4991" y2="44.206" stroke="var(--primary-colour)"></line>
+    <line x1="15.5288" y1="41.0048" x2="15.5" y2="44.0047" stroke="var(--primary-colour)"></line>
+    <path d="M58.8238 28.8526L12.2684 30.1126C11.1287 30.1434 10.2453 31.1193 10.3278 32.2564L10.6204 36.2935C10.6963 37.3401 11.5682 38.1501 12.6176 38.1489L59.1379 38.0941C60.2801 38.0928 61.1892 37.1367 61.1332 35.9959L60.8755 30.7537C60.8221 29.6676 59.9108 28.8232 58.8238 28.8526Z" stroke="var(--secondary-colour)"></path>
+    <line x1="15.8889" y1="34.4292" x2="15.9085" y2="37.9595" stroke="var(--secondary-colour)"></line>
+    <line x1="18.249" y1="35.5929" x2="18.262" y2="37.9464" stroke="var(--secondary-colour)"></line>
+    <line x1="20.6025" y1="35.5799" x2="20.6156" y2="37.9334" stroke="var(--secondary-colour)"></line>
+    <line x1="22.956" y1="35.5669" x2="22.9691" y2="37.9204" stroke="var(--secondary-colour)"></line>
+    <line x1="25.3096" y1="35.5538" x2="25.3226" y2="37.9073" stroke="var(--secondary-colour)"></line>
+    <line x1="32.3699" y1="35.5147" x2="32.3829" y2="37.8682" stroke="var(--secondary-colour)"></line>
+    <line x1="34.7234" y1="35.5017" x2="34.7364" y2="37.8552" stroke="var(--secondary-colour)"></line>
+    <line x1="37.0769" y1="35.4887" x2="37.0899" y2="37.8422" stroke="var(--secondary-colour)"></line>
+    <line x1="39.4304" y1="35.4757" x2="39.4434" y2="37.8292" stroke="var(--secondary-colour)"></line>
+    <line x1="44.1374" y1="35.4496" x2="44.1505" y2="37.8031" stroke="var(--secondary-colour)"></line>
+    <line x1="46.491" y1="35.4366" x2="46.504" y2="37.7901" stroke="var(--secondary-colour)"></line>
+    <line x1="48.8442" y1="35.4235" x2="48.8573" y2="37.777" stroke="var(--secondary-colour)"></line>
+    <line x1="51.1977" y1="35.4105" x2="51.2108" y2="37.764" stroke="var(--secondary-colour)"></line>
+    <line x1="28.833" y1="34.3576" x2="28.8525" y2="37.8878" stroke="var(--secondary-colour)"></line>
+    <line x1="41.7776" y1="34.2859" x2="41.7971" y2="37.8161" stroke="var(--secondary-colour)"></line>
+    <line x1="54.7217" y1="34.2142" x2="54.7412" y2="37.7445" stroke="var(--secondary-colour)"></line>
+    <rect x="13.0352" y="31.3412" width="46.1567" height="1.65308" rx="0.826539" transform="rotate(-1.1391 13.0352 31.3412)" fill="#FFC700"></rect>
+</svg>
